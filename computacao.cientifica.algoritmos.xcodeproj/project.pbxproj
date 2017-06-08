@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0634FB071EE8B5D200AE0258 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB061EE8B5D200AE0258 /* main.cpp */; };
 		0634FB0F1EE8B67A00AE0258 /* Pilha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB0D1EE8B67A00AE0258 /* Pilha.cpp */; };
-		0634FB131EE9FD0500AE0258 /* Fila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB111EE9FD0500AE0258 /* Fila.cpp */; };
+		0634FB171EEA03B400AE0258 /* Fila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB151EEA03B400AE0258 /* Fila.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +29,8 @@
 		0634FB061EE8B5D200AE0258 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = computacao.cientifica.algoritmos/main.cpp; sourceTree = "<group>"; };
 		0634FB0D1EE8B67A00AE0258 /* Pilha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pilha.cpp; sourceTree = "<group>"; };
 		0634FB0E1EE8B67A00AE0258 /* Pilha.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pilha.hpp; sourceTree = "<group>"; };
-		0634FB111EE9FD0500AE0258 /* Fila.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fila.cpp; sourceTree = "<group>"; };
-		0634FB121EE9FD0500AE0258 /* Fila.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Fila.hpp; sourceTree = "<group>"; };
+		0634FB151EEA03B400AE0258 /* Fila.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Fila.cpp; path = computacao.cientifica.algoritmos/Fila.cpp; sourceTree = "<group>"; };
+		0634FB161EEA03B400AE0258 /* Fila.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Fila.hpp; path = computacao.cientifica.algoritmos/Fila.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 		0634FB101EE9FCCA00AE0258 /* computacao.cientifica.algoritmos.fila */ = {
 			isa = PBXGroup;
 			children = (
-				0634FB111EE9FD0500AE0258 /* Fila.cpp */,
-				0634FB121EE9FD0500AE0258 /* Fila.hpp */,
+				0634FB151EEA03B400AE0258 /* Fila.cpp */,
+				0634FB161EEA03B400AE0258 /* Fila.hpp */,
 			);
 			name = computacao.cientifica.algoritmos.fila;
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0634FB131EE9FD0500AE0258 /* Fila.cpp in Sources */,
+				0634FB171EEA03B400AE0258 /* Fila.cpp in Sources */,
 				0634FB0F1EE8B67A00AE0258 /* Pilha.cpp in Sources */,
 				0634FB071EE8B5D200AE0258 /* main.cpp in Sources */,
 			);
