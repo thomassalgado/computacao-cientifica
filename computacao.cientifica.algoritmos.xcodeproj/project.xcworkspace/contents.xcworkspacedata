@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:computacao.cientifica.algoritmos.xcodeproj">
+      location = "self:/Users/rsalgado/desenv/mestrado/computacao.cientifica.algoritmos/computacao.cientifica.algoritmos.xcodeproj">
    </FileRef>
 </Workspace>

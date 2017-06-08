@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0634FB071EE8B5D200AE0258 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB061EE8B5D200AE0258 /* main.cpp */; };
+		0634FB0F1EE8B67A00AE0258 /* Pilha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB0D1EE8B67A00AE0258 /* Pilha.cpp */; };
+		0634FB131EE9FD0500AE0258 /* Fila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB111EE9FD0500AE0258 /* Fila.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0634FB031EE8B5D200AE0258 /* computacao.cientifica.algoritmos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = computacao.cientifica.algoritmos; sourceTree = BUILT_PRODUCTS_DIR; };
 		0634FB061EE8B5D200AE0258 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0634FB0D1EE8B67A00AE0258 /* Pilha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pilha.cpp; sourceTree = "<group>"; };
+		0634FB0E1EE8B67A00AE0258 /* Pilha.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pilha.hpp; sourceTree = "<group>"; };
+		0634FB111EE9FD0500AE0258 /* Fila.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fila.cpp; sourceTree = "<group>"; };
+		0634FB121EE9FD0500AE0258 /* Fila.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Fila.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +47,8 @@
 		0634FAFA1EE8B5D200AE0258 = {
 			isa = PBXGroup;
 			children = (
-				0634FB051EE8B5D200AE0258 /* computacao.cientifica.algoritmos */,
+				0634FB101EE9FCCA00AE0258 /* computacao.cientifica.algoritmos.fila */,
+				0634FB051EE8B5D200AE0258 /* computacao.cientifica.algoritmos.pilha */,
 				0634FB041EE8B5D200AE0258 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +61,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0634FB051EE8B5D200AE0258 /* computacao.cientifica.algoritmos */ = {
+		0634FB051EE8B5D200AE0258 /* computacao.cientifica.algoritmos.pilha */ = {
 			isa = PBXGroup;
 			children = (
 				0634FB061EE8B5D200AE0258 /* main.cpp */,
+				0634FB0D1EE8B67A00AE0258 /* Pilha.cpp */,
+				0634FB0E1EE8B67A00AE0258 /* Pilha.hpp */,
 			);
+			name = computacao.cientifica.algoritmos.pilha;
 			path = computacao.cientifica.algoritmos;
+			sourceTree = "<group>";
+		};
+		0634FB101EE9FCCA00AE0258 /* computacao.cientifica.algoritmos.fila */ = {
+			isa = PBXGroup;
+			children = (
+				0634FB111EE9FD0500AE0258 /* Fila.cpp */,
+				0634FB121EE9FD0500AE0258 /* Fila.hpp */,
+			);
+			name = computacao.cientifica.algoritmos.fila;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0634FB131EE9FD0500AE0258 /* Fila.cpp in Sources */,
+				0634FB0F1EE8B67A00AE0258 /* Pilha.cpp in Sources */,
 				0634FB071EE8B5D200AE0258 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
