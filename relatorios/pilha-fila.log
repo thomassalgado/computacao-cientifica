@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.9)  11 JUN 2017 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.9)  11 JUN 2017 18:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2826,11 +2826,11 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 283.
+(babel)             in language  on input line 291.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 293.
 \openout4 = `pilha-fila.mw'.
 
  [12] (./pilha-fila.mw)
@@ -2841,11 +2841,11 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 285.
+(babel)             in language  on input line 293.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 289.
+(babel)             in language  on input line 297.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 289.
+(babel)             in language  on input line 297.
 \openout4 = `pilha-fila.mw'.
 
  [13
@@ -2859,17 +2859,17 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 289.
+(babel)             in language  on input line 297.
 
 
-LaTeX Warning: Empty bibliography on input line 293.
+LaTeX Warning: Empty bibliography on input line 301.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 303.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 304.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 296.
+(babel)             in language  on input line 304.
 \openout4 = `pilha-fila.mw'.
 
 [14
@@ -2902,8 +2902,8 @@ No file pilha-fila.ind.
 Package imakeidx Warning: Remember to run (pdf)latex again after calling
 (imakeidx)                `texindy pilha-fila.idx'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
 (./pilha-fila.aux
 \openout4 = `pilha-fila.mw'.
 
@@ -3066,8 +3066,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
 \openout4 = `pilha-fila.mw'.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
 \openout4 = `pilha-fila.out'.
 
 Package rerunfilecheck Info: File `pilha-fila.out' has not changed.
@@ -3114,7 +3114,7 @@ s/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/
 utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b>
-Output written on pilha-fila.pdf (14 pages, 83606 bytes).
+Output written on pilha-fila.pdf (14 pages, 84891 bytes).
 PDF statistics:
  285 PDF objects out of 1000 (max. 8388607)
  259 compressed objects within 3 object streams

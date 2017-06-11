@@ -7,3 +7,37 @@
 //
 
 #include "Fila.hpp"
+
+Fila::Fila(){
+    inicio = 0;
+    fim = 0;
+    elementos = 0;
+}
+
+void Fila::enfileira(string entrada){
+    if(fim < SIZE){
+        memoria[fim] = entrada;
+        fim++;
+        elementos++;
+        cout << "Elemento \"" << entrada << "\" empilhado com sucesso\n";
+    } else {
+        cout << "A Fila esta cheia\n";
+    }
+    return;
+}
+
+string Fila::desenfileira(){
+    if(inicio < SIZE && inicio < fim){
+        string aux = memoria[inicio];
+        memoria[inicio] = "";
+        inicio++;
+        elementos--;
+        return aux;
+    } else {
+        return "A Fila esta vazia\n";
+    }
+}
+
+int Fila::qtdElementos(){
+    return elementos;
+}

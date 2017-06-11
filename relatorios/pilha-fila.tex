@@ -182,7 +182,7 @@ Por se tratarem de elementos bem difundidos no ramo científico e de implementa�
 
 Para a implementação da estrutura de Pilha na linguagem C++, a clase de nome Pilha foi criada, com sua estrutura definida no arquivo \textbf{\textit{Pilha.hpp}} e sua implementação definida no arquivo \textbf{\textit{Pilha.cpp}}
 
-Os elementos da estrutura de dados serão inseridos no vetor de nome  \textbf{\textit{memória}} que foi definido com o valor inicial de 1000 pela constante \textbf{\textit{SIZE}} 
+Os elementos da estrutura de dados serão inseridos no vetor de nome  \textbf{\textit{memória}} que foi definido com o tamanho de 1000 pela constante \textbf{\textit{SIZE}} 
 
 \begin{myenv}{Pilha.hpp}
 \begin{lstlisting}
@@ -278,9 +278,21 @@ int Pilha::qtdElementos(){
 \end{lstlisting}
 \end{myenv}
 
+A variável \textbf{\textit{posicaoTopo}} indica a posição em que um novo elemento deverá inserido e tambem representa a quantidade de elementos inseridos na pilha
 
+O método \textbf{\textit{empilha}} recebe como parâmetro uma string e verifica se ainda existe espaço na pilha para a inserção de novos itens. caso exista, insere o novo elemento na fila, retornando uma mensagem de sucesso, caso contrário, retorna uma mensagem de erro informando que a fila esta cheia.
+
+O método \textbf{\textit{desempilha}} não recebe parâmetros e retorna o elemento que se encontra no topo da pilha, removendo-o da mesma. Caso a pilha esteja vazia, uma mensagem de erro é retornada.
+
+O método \textbf{\textit{topo}} não recebe parâmetros e retorna o elemento que se encontra no topo da pilha, sem removê-lo. Caso a pilha esteja vazia, uma mensagem de erro é retornada.
+
+O método auxiliar \textbf{\textit{qtdElementos}} informa a quantidade de elementos que estão na pilha no momento.
 
 \section{Implementação de Fila}
+
+Para a implementação da estrutura de Fila na linguagem C++, a clase de nome Fila foi criada, com sua estrutura definida no arquivo \textbf{\textit{Fila.hpp}} e sua implementação definida no arquivo \textbf{\textit{Fila.cpp}}
+
+Os elementos da estrutura de dados serão inseridos no vetor de nome  \textbf{\textit{memória}} que foi definido com o tamanho de 1000 pela constante \textbf{\textit{SIZE}} 
 
 \chapter{Resultados}
 

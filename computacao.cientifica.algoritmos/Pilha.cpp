@@ -38,8 +38,7 @@ string Pilha::desempilha(){
 
 string Pilha::topo(){
     if(posicaoTopo == 0){
-        cout << "A Pilha esta vazia\n";
-        return "";
+        return "A Pilha esta vazia\n";;
     } else {
         return memoria[posicaoTopo - 1];
     }

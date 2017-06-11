@@ -10,7 +10,6 @@
 #define Pilha_hpp
 #define SIZE 1000
 
-
 #include <stdio.h>
 #include <string>
 #include <iostream>
