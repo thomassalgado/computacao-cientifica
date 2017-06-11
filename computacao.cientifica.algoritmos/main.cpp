@@ -7,11 +7,15 @@
 //
 
 #include <iostream>
+#include "Pilha.hpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
+    
+    Pilha p;
+    p.desempilha();
     // insert code here...
-    cout << "Hello, World!\n";
+    cout << "Hello, World! " << p.desempilha() << "\n";
     return 0;
 }

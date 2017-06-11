@@ -1,0 +1,103 @@
+\documentclass[rascunho,xindy,sublist]{fei}
+\usepackage[utf8]{inputenc}
+
+
+\author{Rafael Thomas Pontes Salgado}
+\title{Relatório 01}
+\subtitulo{Pilhas e Filas­}
+
+\cidade{São Bernardo do Campo}
+\instituicao{Centro Universitário FEI}
+
+%%%% -- Entradas Listas de Abreviaturas e Simbolos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% -- Titulos - comentar caso a respectiva lista nao seja utilizada
+\newglossaryentry{acro}{name={},description={\nopostdesc},sort=a} %Usado para alinhar a lista de abreviaturas
+\newglossaryentry{geral}{name={Geral},description={\nopostdesc},sort=a}
+\newglossaryentry{greek}{name={Letras gregas},description={\nopostdesc},sort=b}
+\newglossaryentry{sub}{name={Subscritos},description={\nopostdesc},sort=c}
+
+%% -- Abreviaturas
+\newacronym[longplural=Computational Aided Design,parent=acro]{cad}{CAD}{Computational Aided Design}
+\newacronym[longplural=Centro UniversitÃ¡rio da FEI,parent=acro]{fei}{FEI}{Centro UniversitÃ¡rio da FEI}
+
+%% -- Simbolos
+%% -- Latin letters
+%\newglossaryentry{}{parent=geral,type=symbols,name={},sort=a,description={}
+\newglossaryentry{A}{parent=geral,type=symbols,name={\ensuremath{A}},sort=a,description={exchanger total heat transfer area, $m^2$}}
+\newglossaryentry{G}{parent=geral,type=symbols,name={\ensuremath{G}},sort=g,description={exchanger flow-stream mass velocity, $kg/(s m^2)$}}
+\newglossaryentry{f}{parent=geral,type=symbols,name={\ensuremath{j}},sort=j,description={friction factor, dimensionless}}
+
+%% -- Greek letters
+%\newglossaryentry{}{parent=geral,type=symbols,name={},sort=a,description={}
+\newglossaryentry{deltap}{parent=greek,type=symbols,name={\ensuremath{\Delta P}},sort=p,description={pressure drop, $Pa$}}
+\newglossaryentry{nu}{parent=greek,type=symbols,name={\ensuremath{\nu}},sort=b,description={specific volume, $m^3/kg$}}
+\newglossaryentry{beta}{parent=greek,type=symbols,name={\ensuremath{\beta}},sort=b,description={ratio of free-flow area $A_{ff}$ and frontal area $A_{fr}$ of one side of exchanger, dimensionless}}
+
+%% -- Subscripts
+%\newglossaryentry{}{parent=geral,type=symbols,name={},sort=a,description={}
+\newglossaryentry{fr}{parent=sub,type=symbols,name={\ensuremath{fr}},sort=fr,description={frontal}}
+\newglossaryentry{in}{parent=sub,type=symbols,name={\ensuremath{i}},sort=in,description={inlet}}
+\newglossaryentry{out}{parent=sub,type=symbols,name={\ensuremath{o}},sort=out,description={outlet}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addbibresource{referencias.bib}
+
+\makeindex
+\makeglossaries
+
+\begin{document}
+
+\maketitle
+
+\begin{resumo}
+Nesse relatório buscamos expor a implementação de duas estruturas de dados, Fila e Pilha, mostrando como são conceitualmente, para quais problemas são utilizadas e exemplos de implementação em linguagem C++ 
+\palavraschave{Pilha. Fila. Estrutura de Dados. Algoritmo. C++}
+\end{resumo}
+
+\listoffigures
+\listoftables
+\printglossaries
+\tableofcontents
+
+\chapter{Introdução}
+
+Durante nossa vida nos deparamos com inúmeros problemas diários onde uma organização deve ser dada aos elementos para que possamos resolver os problemas de forma eficaz. Quando vamos ao banco pagar uma conta ou quando simplesmente vamos organizar as cartas de um baralho, certas estruturas naturais estão sempre presentes para nos auxiliar e as mais comumente encontradas são as estruturas de pilha e fila que serão o objetivo desse relatório.
+
+\section{Motivação}
+
+Por serem estruturas de dados utilizadas de forma recorrente em diversos algoritmos, esse trabalho tem a motivação de estudar as estruturas de dados de pilha e fila para seu maior entendimento e ajuda na escolha das mesmas em futuras implementações.
+
+\section{Objetivo}
+
+Esse relatório tem como objetivo a implementação das estruturas de dados de Pilha e Fila utilizando a linguagem orientada a objeto C++, verificando sua complexidade de implementação e exemplificando usos das mesmas.
+
+\section{Metodologia}
+
+Nunc molestie nunc ac lorem dictum, sit amet placerat tellus congue. In sit amet dolor sed leo lobortis malesuada. Curabitur sit amet tristique urna. Vestibulum sollicitudin pellentesque aliquam. Sed 
+
+\chapter{Teoria}
+
+Nunc molestie nunc ac lorem dictum, sit amet pl
+
+\chapter{Trabalhos correlatos}
+
+Nunc molestie nunc ac lorem dictum, sit amet pl
+
+\chapter{Proposta}
+
+Nunc molestie nunc ac lorem dictum, sit amet pl
+
+\chapter{Resultados}
+
+Nunc molestie nunc ac lorem dictum, sit amet pl
+
+\chapter{Conclusão}
+
+Nunc molestie nunc ac lorem dictum, sit amet pl
+
+\printbibliography
+
+\printindex
+
+\end{document}

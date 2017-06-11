@@ -27,19 +27,10 @@
 
 #include "Pilha.hpp"
 
-class Pilha {
-    private:
-        int memoria[SIZE];
-        int posicao;
-    
-    public:
-    
-        void empilha(int entrada){
-            return;
-        };
-    
-        int desempilha(){
-            return 0;
-        };
-    
-};
+void Pilha::empilha(int entrada){
+    return;
+}
+
+int Pilha::desempilha(){
+    return 0;
+}

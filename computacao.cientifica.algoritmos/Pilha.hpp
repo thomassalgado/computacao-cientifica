@@ -14,3 +14,13 @@
 #include <stdio.h>
 
 #endif /* Pilha_hpp */
+
+class Pilha {
+private:
+    int memoria[SIZE];
+    int posicao;
+    
+public:
+    void empilha(int entrada);
+    int desempilha();
+};
