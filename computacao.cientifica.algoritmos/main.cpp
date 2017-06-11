@@ -12,10 +12,21 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    
     Pilha p;
-    p.desempilha();
-    // insert code here...
-    cout << "Hello, World! " << p.desempilha() << "\n";
+    p.empilha("Ola");
+    //cout << p.desempilha() << "\n";
+    p.empilha("Ola2");
+    cout << p.desempilha() << "\n";
+    p.empilha("Ola3");
+    //cout << p.desempilha() << "\n";
+    p.empilha("Ola4");
+    //cout << p.desempilha() << "\n";
+    p.empilha("Ola5");
+    //cout << p.desempilha() << "\n";
+    p.empilha("Ola6");
+    //cout << p.desempilha() << "\n";
+    p.empilha("Ola7");
+    //cout << p.desempilha() << "\n";
+    cout << "Elemento no topo \"" << p.topo() << "\"\n";
     return 0;
 }

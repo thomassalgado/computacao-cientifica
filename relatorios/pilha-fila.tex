@@ -1,3 +1,4 @@
+% !TEX encoding = UTF-8 Unicode
 \documentclass[rascunho,xindy,sublist]{fei}
 \usepackage[utf8]{inputenc}
 
@@ -18,8 +19,7 @@
 \newglossaryentry{sub}{name={Subscritos},description={\nopostdesc},sort=c}
 
 %% -- Abreviaturas
-\newacronym[longplural=Computational Aided Design,parent=acro]{cad}{CAD}{Computational Aided Design}
-\newacronym[longplural=Centro UniversitÃ¡rio da FEI,parent=acro]{fei}{FEI}{Centro UniversitÃ¡rio da FEI}
+\newacronym[longplural=Centro Universitário da FEI,parent=acro]{fei}{FEI}{Centro Universitário da FEI}
 
 %% -- Simbolos
 %% -- Latin letters
@@ -74,19 +74,56 @@ Esse relatório tem como objetivo a implementação das estruturas de dados de P
 
 \section{Metodologia}
 
-Nunc molestie nunc ac lorem dictum, sit amet placerat tellus congue. In sit amet dolor sed leo lobortis malesuada. Curabitur sit amet tristique urna. Vestibulum sollicitudin pellentesque aliquam. Sed 
+Para a implementação das estruturas de dados de pilha e fila, foi utilizada a linguagem orientada a objeto C++ visto a fácil representação das estruturas como objetos.
 
 \chapter{Teoria}
 
-Nunc molestie nunc ac lorem dictum, sit amet pl
+A seguir iremos descrever as estruturas de pilha e fila, bem como suas propriedades e métodos
+
+\section{Pilha}
+
+Pilha é uma estrutura de dados onde um conjunto de elementos é organizado da forma \textbf{último a entrar, primeiro a sair}, possuindo as seguintes operações:
+
+\begin{enumerate}
+  \item \textbf{\textit{Inserir}} ou \textbf{\textit{Push}}
+  \item \textbf{\textit{Remover}} ou \textbf{\textit{Pop}}
+  \item \textbf{\textit{Topo}} ou \textbf{\textit{Top}}
+\end{enumerate}
+
+O método \textbf{\textit{Inserir}} adiciona um novo elemento a estrutura de dados fazendo com que o mesmo seja representado como estando no topo da pilha
+
+O metodo \textbf{\textit{Remover}} retira o elemento atualmente no top da pilha da estrutura de dados, o elemento subsequente passa a ser o novo topo da pilha ou a mesma ficará vazia.
+
+O metodo \textbf{\textit{Topo}} informa qual é o elemento que esta atualmente no topo da pilha, sem removê-lo.
+
+\section{Fila}
+
+Fila é uma estrutura de dados onde um conjunto de elementos é organizado da forma \textbf{primeiro a entrar, primeiro a sair}, possuindo as seguintes operações:
+
+\begin{enumerate}
+  \item \textbf{\textit{Inserir}} ou \textbf{\textit{Enqueue}}
+  \item \textbf{\textit{Remover}} ou \textbf{\textit{Dequeue}}
+\end{enumerate}
+
+O método \textbf{\textit{Inserir}} adiciona um novo elemento a estrutura de dados fazendo com que o mesmo seja representado como estando no fim da fila. Caso não exista outro elemento na fila, o mesmo é marcado tambem como estando no início da fila e portando sendo o próximo a ser removido pelo método  \textbf{\textit{Remover}}. 
+
+O metodo \textbf{\textit{Remover}} retira o elemento atualmente no início da fila, o elemento subsequente passa a ser o novo início e caso não existam novos elementos a mesma ficará vazia.
 
 \chapter{Trabalhos correlatos}
 
-Nunc molestie nunc ac lorem dictum, sit amet pl
+Por se tratarem de elementos bem difundidos no ramo científico e de implementação simples, não foram encontrados trabalhos ou pesquisas relacionadas diretamente ao estudo das estruturas de pilha e fila, entretanto as mesmas são base base a implementação de uma enorme quantidade de algoritmos.
 
 \chapter{Proposta}
 
-Nunc molestie nunc ac lorem dictum, sit amet pl
+\section{Implementação de Pilha}
+
+Para a implementação da estrutura de Pilha na linguagem C++, a clase de nome Pilha foi criada, com sua estrutura definida no arquivo \textbf{\textit{Pilha.hpp}} e sua implementação definida no arquivo \textbf{\textit{Pilha.cpp}}
+
+Os elementos da estrutura de dados serão inseridos no vetor de nome  \textbf{\textit{memória}} que foi definido com o valor inicial de 1000 pela constante \textbf{\textit{SIZE}} 
+
+
+
+\section{Implementação de Fila}
 
 \chapter{Resultados}
 

@@ -8,19 +8,26 @@
 
 #ifndef Pilha_hpp
 #define Pilha_hpp
-#define SIZE 100
+#define SIZE 1000
 
 
 #include <stdio.h>
+#include <string>
+#include <iostream>
 
 #endif /* Pilha_hpp */
 
+using namespace std;
+
 class Pilha {
 private:
-    int memoria[SIZE];
-    int posicao;
+    string memoria[SIZE];
+    int posicaoTopo;
     
 public:
-    void empilha(int entrada);
-    int desempilha();
+    Pilha();
+    void empilha(string entrada);
+    string desempilha();
+    string topo();
+    int qtdElementos();
 };

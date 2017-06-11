@@ -6,31 +6,45 @@
 //  Copyright © 2017 Rafael Thomas Salgado. All rights reserved.
 //
 
-/*
-  Relatório Cientifico
-  Intruduçao
-    - Motivacao (descrição do problema)- Introduz o problema
-    - Objetivo - O que este trabalho faz (implememtar Pilha e Fila usando orientação a objeto) 1 paragrafo
-    - Justificativa (metodologia) como foi resolvido
-  Teoria (aquilo que é necessário para se entender o que esta fazendo)
-    - Subsidio para o leitor entender o seu trabalho
-    - 
-  Trabalhos correlatos - estado da arte
-  Proposta - Descrição do que foi feito
-  Resultados / Experimentos
-  Conclusao - O que foi concluido com o trabalho
-  Bibliografia
- 
-  Entrega por email até terça as 18:30
-  Manual de estilo e redação - link da biblioteca
- */
-
 #include "Pilha.hpp"
 
-void Pilha::empilha(int entrada){
+Pilha::Pilha(){
+    posicaoTopo = 0;
+}
+
+void Pilha::empilha(string entrada){
+    if(posicaoTopo < SIZE){
+        memoria[posicaoTopo] = entrada;
+        posicaoTopo++;
+        cout << "Elemento \"" << entrada << "\" empilhado com sucesso\n";
+    } else {
+        cout << "A Pilha esta cheia\n";
+    }
     return;
 }
 
-int Pilha::desempilha(){
-    return 0;
+string Pilha::desempilha(){
+    
+    if(posicaoTopo == 0){
+        cout << "A Pilha esta vazia\n";
+        return "";
+    } else {
+        posicaoTopo--;
+        string aux = memoria[posicaoTopo];
+        memoria[posicaoTopo]="";
+        return aux;
+    }
+}
+
+string Pilha::topo(){
+    if(posicaoTopo == 0){
+        cout << "A Pilha esta vazia\n";
+        return "";
+    } else {
+        return memoria[posicaoTopo - 1];
+    }
+}
+
+int Pilha::qtdElementos(){
+    return posicaoTopo;
 }

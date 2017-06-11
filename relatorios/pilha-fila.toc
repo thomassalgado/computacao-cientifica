@@ -13,9 +13,17 @@
 \defcounter {refsection}{0}\relax
 \contentsline {chapter}{\numberline {2}Teoria}{8}{chapter.2}
 \defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {2.1}Pilha}{8}{section.2.1}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {2.2}Fila}{8}{section.2.2}
+\defcounter {refsection}{0}\relax
 \contentsline {chapter}{\numberline {3}Trabalhos correlatos}{9}{chapter.3}
 \defcounter {refsection}{0}\relax
 \contentsline {chapter}{\numberline {4}Proposta}{10}{chapter.4}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {4.1}Implementa\IeC {\c c}\IeC {\~a}o de Pilha}{10}{section.4.1}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {4.2}Implementa\IeC {\c c}\IeC {\~a}o de Fila}{10}{section.4.2}
 \defcounter {refsection}{0}\relax
 \contentsline {chapter}{\numberline {5}Resultados}{11}{chapter.5}
 \defcounter {refsection}{0}\relax
