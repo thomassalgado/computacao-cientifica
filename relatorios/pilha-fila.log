@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.9)  11 JUN 2017 18:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.9)  11 JUN 2017 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2827,10 +2827,16 @@ Package babel Info: Redefining portuges shorthand "|
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 291.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 298.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 333.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 333.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 333.
 \openout4 = `pilha-fila.mw'.
 
  [12] (./pilha-fila.mw)
@@ -2841,38 +2847,81 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 333.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 297.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 297.
+(babel)             in language  on input line 333.
 \openout4 = `pilha-fila.mw'.
 
- [13
-
-]
+ [13]
 (./pilha-fila.mw)
 \openout4 = `pilha-fila.mw'.
 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 336.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 381.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 381.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 381.
+\openout4 = `pilha-fila.mw'.
+
+ [14] (./pilha-fila.mw)
+\openout4 = `pilha-fila.mw'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 393.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 393.
+\openout4 = `pilha-fila.mw'.
+
+ [15] (./pilha-fila.mw)
+\openout4 = `pilha-fila.mw'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 395.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 395.
+\openout4 = `pilha-fila.mw'.
+
+ [16]
+(./pilha-fila.mw)
+\openout4 = `pilha-fila.mw'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 395.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 399.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 399.
+\openout4 = `pilha-fila.mw'.
+
+ [17
+
+] (./pilha-fila.mw)
 \openout4 = `pilha-fila.mw'.
 
 \openout4 = `pilha-fila.mw'.
 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 297.
-
-
-LaTeX Warning: Empty bibliography on input line 301.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 303.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 304.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 304.
 \openout4 = `pilha-fila.mw'.
 
-[14
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 399.
+
+
+LaTeX Warning: Empty bibliography on input line 403.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 405.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 406.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 406.
+\openout4 = `pilha-fila.mw'.
+
+[18
 
 ] (./pilha-fila.mw)
 \openout4 = `pilha-fila.mw'.
@@ -2902,8 +2951,8 @@ No file pilha-fila.ind.
 Package imakeidx Warning: Remember to run (pdf)latex again after calling
 (imakeidx)                `texindy pilha-fila.idx'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
 (./pilha-fila.aux
 \openout4 = `pilha-fila.mw'.
 
@@ -3066,8 +3115,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
 \openout4 = `pilha-fila.mw'.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 407.
 \openout4 = `pilha-fila.out'.
 
 Package rerunfilecheck Info: File `pilha-fila.out' has not changed.
@@ -3097,13 +3146,13 @@ Package logreq Info: Writing requests to 'pilha-fila.run.xml'.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 38409 strings out of 492995
- 668489 string characters out of 6132705
- 1718292 words of memory out of 5000000
- 41280 multiletter control sequences out of 15000+600000
+ 38513 strings out of 492995
+ 669953 string characters out of 6132705
+ 1731292 words of memory out of 5000000
+ 41294 multiletter control sequences out of 15000+600000
  41170 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,12n,117p,10391b,22239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,13n,117p,10391b,22239s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathi
 t.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/us
 r/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive
@@ -3114,10 +3163,10 @@ s/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/
 utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b>
-Output written on pilha-fila.pdf (14 pages, 84891 bytes).
+Output written on pilha-fila.pdf (18 pages, 95125 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
- 118 named destinations out of 1000 (max. 500000)
+ 396 PDF objects out of 1000 (max. 8388607)
+ 365 compressed objects within 4 object streams
+ 200 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
