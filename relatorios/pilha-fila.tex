@@ -1,7 +1,70 @@
 % !TEX encoding = UTF-8 Unicode
 \documentclass[rascunho,xindy,sublist]{fei}
 \usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\lstset { %
+    language=C++,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\footnotesize,% basic font setting
+}
 
+\definecolor{listinggray}{gray}{0.9}
+%\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\definecolor{lbcolor}{rgb}{1,1,1}
+\lstset{
+backgroundcolor=\color{lbcolor},
+    	tabsize=4,    
+    	language=[GNU]C++,
+        basicstyle=\scriptsize,
+        upquote=true,
+        aboveskip={1.5\baselineskip},
+        columns=fixed,
+        showstringspaces=false,
+        extendedchars=false,
+        breaklines=true,
+        prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+        frame=single,
+        numbers=left,
+        showtabs=false,
+        showspaces=false,
+        showstringspaces=false,
+        identifierstyle=\ttfamily,
+        keywordstyle=\color[rgb]{0,0,1},
+        commentstyle=\color[rgb]{0.026,0.112,0.095},
+        stringstyle=\color[rgb]{0.627,0.126,0.941},
+        numberstyle=\color[rgb]{0.205, 0.142, 0.73}
+}
+\lstset{
+  	backgroundcolor=\color{lbcolor},
+	tabsize=4,
+  	language=C++,
+  	captionpos=b,
+  	tabsize=3,
+  	frame=lines,
+  	numbers=left,
+  	numberstyle=\tiny,
+  	numbersep=5pt,
+  	breaklines=true,
+  	showstringspaces=false,
+  	basicstyle=\footnotesize,
+  	keywordstyle=\color[rgb]{0,0,1},
+  	commentstyle=\color[rgb]{0,0.502,0},
+  	stringstyle=\color{red}
+}
+
+
+\newenvironment{myenv}[1]
+  {\mdfsetup{
+    frametitle={\colorbox{white}{\space#1\space}},
+    innertopmargin=10pt,
+    frametitleaboveskip=-\ht\strutbox,
+    frametitlealignment=\center
+    }
+  \begin{mdframed}%
+  }
+  {\end{mdframed}}
 
 \author{Rafael Thomas Pontes Salgado}
 \title{Relatório 01}
@@ -120,6 +183,100 @@ Por se tratarem de elementos bem difundidos no ramo científico e de implementa�
 Para a implementação da estrutura de Pilha na linguagem C++, a clase de nome Pilha foi criada, com sua estrutura definida no arquivo \textbf{\textit{Pilha.hpp}} e sua implementação definida no arquivo \textbf{\textit{Pilha.cpp}}
 
 Os elementos da estrutura de dados serão inseridos no vetor de nome  \textbf{\textit{memória}} que foi definido com o valor inicial de 1000 pela constante \textbf{\textit{SIZE}} 
+
+\begin{myenv}{Pilha.hpp}
+\begin{lstlisting}
+//
+//  Pilha.hpp
+//  computacao.cientifica.algoritmos.pilha
+//
+//  Created by Rafael Thomas Salgado on 07/06/17.
+//  Copyright 2017 Rafael Thomas Salgado. All rights reserved.
+//
+
+#ifndef Pilha_hpp
+#define Pilha_hpp
+#define SIZE 1000
+
+
+#include <stdio.h>
+#include <string>
+#include <iostream>
+
+#endif /* Pilha_hpp */
+
+using namespace std;
+
+class Pilha {
+private:
+    string memoria[SIZE];
+    int posicaoTopo;
+    
+public:
+    Pilha();
+    void empilha(string entrada);
+    string desempilha();
+    string topo();
+    int qtdElementos();
+};
+\end{lstlisting}
+\end{myenv}
+
+
+\begin{myenv}{Pilha.cpp}
+\begin{lstlisting}
+//
+//  Pilha.cpp
+//  computacao.cientifica.algoritmos.pilha
+//
+//  Created by Rafael Thomas Salgado on 07/06/17.
+//  Copyright 2017 Rafael Thomas Salgado. All rights reserved.
+//
+
+#include "Pilha.hpp"
+
+Pilha::Pilha(){
+    posicaoTopo = 0;
+}
+
+void Pilha::empilha(string entrada){
+    if(posicaoTopo < SIZE){
+        memoria[posicaoTopo] = entrada;
+        posicaoTopo++;
+        cout << "Elemento \"" << entrada << "\" empilhado com sucesso\n";
+    } else {
+        cout << "A Pilha esta cheia\n";
+    }
+    return;
+}
+
+string Pilha::desempilha(){
+    
+    if(posicaoTopo == 0){
+        cout << "A Pilha esta vazia\n";
+        return "";
+    } else {
+        posicaoTopo--;
+        string aux = memoria[posicaoTopo];
+        memoria[posicaoTopo]="";
+        return aux;
+    }
+}
+
+string Pilha::topo(){
+    if(posicaoTopo == 0){
+        cout << "A Pilha esta vazia\n";
+        return "";
+    } else {
+        return memoria[posicaoTopo - 1];
+    }
+}
+
+int Pilha::qtdElementos(){
+    return posicaoTopo;
+}
+\end{lstlisting}
+\end{myenv}
 
 
 

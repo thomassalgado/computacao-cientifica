@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.9)  11 JUN 2017 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.9)  11 JUN 2017 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1804,6 +1804,157 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count464
+\lst@gtempboxa=\box90
+\lst@token=\toks54
+\lst@length=\count465
+\lst@currlwidth=\dimen301
+\lst@column=\count466
+\lst@pos=\count467
+\lst@lostspace=\dimen302
+\lst@width=\dimen303
+\lst@newlines=\count468
+\lst@lineno=\count469
+\lst@maxwidth=\dimen304
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count470
+\lst@skipnumbers=\count471
+\lst@framebox=\box91
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count472
+Package zref Info: New property: abspage on input line 62.
+)
+\mdf@templength=\skip310
+\c@mdf@globalstyle@cnt=\count473
+\mdf@skipabove@length=\skip311
+\mdf@skipbelow@length=\skip312
+\mdf@leftmargin@length=\skip313
+\mdf@rightmargin@length=\skip314
+\mdf@innerleftmargin@length=\skip315
+\mdf@innerrightmargin@length=\skip316
+\mdf@innertopmargin@length=\skip317
+\mdf@innerbottommargin@length=\skip318
+\mdf@splittopskip@length=\skip319
+\mdf@splitbottomskip@length=\skip320
+\mdf@outermargin@length=\skip321
+\mdf@innermargin@length=\skip322
+\mdf@linewidth@length=\skip323
+\mdf@innerlinewidth@length=\skip324
+\mdf@middlelinewidth@length=\skip325
+\mdf@outerlinewidth@length=\skip326
+\mdf@roundcorner@length=\skip327
+\mdf@footenotedistance@length=\skip328
+\mdf@userdefinedwidth@length=\skip329
+\mdf@needspace@length=\skip330
+\mdf@frametitleaboveskip@length=\skip331
+\mdf@frametitlebelowskip@length=\skip332
+\mdf@frametitlerulewidth@length=\skip333
+\mdf@frametitleleftmargin@length=\skip334
+\mdf@frametitlerightmargin@length=\skip335
+\mdf@shadowsize@length=\skip336
+\mdf@extratopheight@length=\skip337
+\mdf@subtitleabovelinewidth@length=\skip338
+\mdf@subtitlebelowlinewidth@length=\skip339
+\mdf@subtitleaboveskip@length=\skip340
+\mdf@subtitlebelowskip@length=\skip341
+\mdf@subtitleinneraboveskip@length=\skip342
+\mdf@subtitleinnerbelowskip@length=\skip343
+\mdf@subsubtitleabovelinewidth@length=\skip344
+\mdf@subsubtitlebelowlinewidth@length=\skip345
+\mdf@subsubtitleaboveskip@length=\skip346
+\mdf@subsubtitlebelowskip@length=\skip347
+\mdf@subsubtitleinneraboveskip@length=\skip348
+\mdf@subsubtitleinnerbelowskip@length=\skip349
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box92
+\mdf@footnotebox=\box93
+\mdf@splitbox@one=\box94
+\mdf@splitbox@two=\box95
+\mdf@splitbox@save=\box96
+\mdfsplitboxwidth=\skip350
+\mdfsplitboxtotalwidth=\skip351
+\mdfsplitboxheight=\skip352
+\mdfsplitboxdepth=\skip353
+\mdfsplitboxtotalheight=\skip354
+\mdfframetitleboxwidth=\skip355
+\mdfframetitleboxtotalwidth=\skip356
+\mdfframetitleboxheight=\skip357
+\mdfframetitleboxdepth=\skip358
+\mdfframetitleboxtotalheight=\skip359
+\mdffootnoteboxwidth=\skip360
+\mdffootnoteboxtotalwidth=\skip361
+\mdffootnoteboxheight=\skip362
+\mdffootnoteboxdepth=\skip363
+\mdffootnoteboxtotalheight=\skip364
+\mdftotallinewidth=\skip365
+\mdfboundingboxwidth=\skip366
+\mdfboundingboxtotalwidth=\skip367
+\mdfboundingboxheight=\skip368
+\mdfboundingboxdepth=\skip369
+\mdfboundingboxtotalheight=\skip370
+\mdf@freevspace@length=\skip371
+\mdf@horizontalwidthofbox@length=\skip372
+\mdf@verticalmarginwhole@length=\skip373
+\mdf@horizontalspaceofbox=\skip374
+\mdfsubtitleheight=\skip375
+\mdfsubsubtitleheight=\skip376
+\c@mdfcountframes=\count474
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
+.................................................
+\mdf@envdepth=\count475
+\c@mdf@env@i=\count476
+\c@mdf@env@ii=\count477
+\c@mdf@zref@counter=\count478
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
 \pilha-fila@idxfile=\write21
 \openout4 = `pilha-fila.idx'.
 
@@ -1813,13 +1964,13 @@ Writing index file pilha-fila.idx
 \glo@acronym@file=\write23
 \openout4 = `pilha-fila.acn'.
 
-Package glossaries Info: Writing glossary file pilha-fila.acn on input line 47.
-
+Package glossaries Info: Writing glossary file pilha-fila.acn on input line 110
+.
 \glo@symbols@file=\write24
 \openout4 = `pilha-fila.slo'.
 
-Package glossaries Info: Writing glossary file pilha-fila.slo on input line 47.
-
+Package glossaries Info: Writing glossary file pilha-fila.slo on input line 110
+.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1855,27 +2006,28 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 (./pilha-fila.aux)
 \openout1 = `pilha-fila.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 112.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1886,17 +2038,17 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count464
-\scratchdimen=\dimen301
-\scratchbox=\box90
-\nofMPsegments=\count465
-\nofMParguments=\count466
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count467
-\MPscratchDim=\dimen302
-\MPnumerator=\count468
-\makeMPintoPDFobject=\count469
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count479
+\scratchdimen=\dimen305
+\scratchbox=\box97
+\nofMPsegments=\count480
+\nofMParguments=\count481
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count482
+\MPscratchDim=\dimen306
+\MPnumerator=\count483
+\makeMPintoPDFobject=\count484
+\everyMPtoPDFconversion=\toks56
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1914,7 +2066,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box91
+\AtBeginShipoutBox=\box98
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -1924,7 +2076,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 112.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1932,14 +2084,14 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count470
+\c@section@level=\count485
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 49.
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 112.
+LaTeX Info: Redefining \pageref on input line 112.
+LaTeX Info: Redefining \nameref on input line 112.
 (./pilha-fila.out) (./pilha-fila.out)
 \@outlinefile=\write25
 \openout4 = `pilha-fila.out'.
@@ -1959,14 +2111,15 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'pilha-fila.bbl' not found.
 
 No file pilha-fila.bbl.
-Package biblatex Info: Reference section=0 on input line 49.
-Package biblatex Info: Reference segment=0 on input line 49.
+Package biblatex Info: Reference section=0 on input line 112.
+Package biblatex Info: Reference segment=0 on input line 112.
+\c@lstlisting=\count486
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 115.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 115.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 115.
 \openout4 = `pilha-fila.mw'.
 
 [1
@@ -2432,9 +2585,9 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.xdy'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 119.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 119.
 \openout4 = `pilha-fila.mw'.
 
  [2
@@ -2445,9 +2598,9 @@ Package babel Info: Redefining portuges shorthand "|
 
  (./pilha-fila.lof)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 121.
 \openout4 = `pilha-fila.mw'.
 
  [3
@@ -2458,9 +2611,9 @@ Package babel Info: Redefining portuges shorthand "|
 
  (./pilha-fila.lot)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 122.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 59.
+(babel)             in language  on input line 122.
 \openout4 = `pilha-fila.mw'.
 
  [4
@@ -2473,9 +2626,9 @@ Package babel Info: Redefining portuges shorthand "|
 No file pilha-fila.acr.
 No file pilha-fila.sls.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 124.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 124.
 \openout4 = `pilha-fila.mw'.
 
 [5
@@ -2512,9 +2665,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 6.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 124.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 124.
 \openout4 = `pilha-fila.mw'.
 
  [6
@@ -2524,17 +2677,17 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 138.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 142.
 \openout4 = `pilha-fila.mw'.
 
  [7
@@ -2560,17 +2713,17 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 79.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 146.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 88.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 151.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 162.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 175.
 \openout4 = `pilha-fila.mw'.
 
  [8
@@ -2591,11 +2744,11 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 112.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 179.
 \openout4 = `pilha-fila.mw'.
 
  [9
@@ -2609,20 +2762,44 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 118.
+(babel)             in language  on input line 181.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 188.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 189.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 189.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 189.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 206.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 208.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 223.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 223.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 223.
 \openout4 = `pilha-fila.mw'.
 
  [10
 
-] (./pilha-fila.mw)
+]
+(./pilha-fila.mw)
 \openout4 = `pilha-fila.mw'.
 
 \openout4 = `pilha-fila.mw'.
@@ -2631,6 +2808,32 @@ Package babel Info: Redefining portuges shorthand "|
 
 \openout4 = `pilha-fila.mw'.
 
+\openout4 = `pilha-fila.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 227.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 279.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 279.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 279.
+\openout4 = `pilha-fila.mw'.
+
+ [11] (./pilha-fila.mw)
+\openout4 = `pilha-fila.mw'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 283.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 285.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 285.
+\openout4 = `pilha-fila.mw'.
+
+ [12] (./pilha-fila.mw)
 \openout4 = `pilha-fila.mw'.
 
 \openout4 = `pilha-fila.mw'.
@@ -2638,16 +2841,17 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 285.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 130.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 130.
+(babel)             in language  on input line 289.
 \openout4 = `pilha-fila.mw'.
 
- [11
+ [13
 
-] (./pilha-fila.mw)
+]
+(./pilha-fila.mw)
 \openout4 = `pilha-fila.mw'.
 
 \openout4 = `pilha-fila.mw'.
@@ -2655,20 +2859,20 @@ Package babel Info: Redefining portuges shorthand "|
 \openout4 = `pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 130.
+(babel)             in language  on input line 289.
 
 
-LaTeX Warning: Empty bibliography on input line 134.
+LaTeX Warning: Empty bibliography on input line 293.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 295.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 296.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 296.
 \openout4 = `pilha-fila.mw'.
 
-[12
+[14
 
 ] (./pilha-fila.mw)
 \openout4 = `pilha-fila.mw'.
@@ -2698,8 +2902,8 @@ No file pilha-fila.ind.
 Package imakeidx Warning: Remember to run (pdf)latex again after calling
 (imakeidx)                `texindy pilha-fila.idx'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
 (./pilha-fila.aux
 \openout4 = `pilha-fila.mw'.
 
@@ -2862,8 +3066,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
 \openout4 = `pilha-fila.mw'.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
 \openout4 = `pilha-fila.out'.
 
 Package rerunfilecheck Info: File `pilha-fila.out' has not changed.
@@ -2893,21 +3097,27 @@ Package logreq Info: Writing requests to 'pilha-fila.run.xml'.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35922 strings out of 492995
- 629121 string characters out of 6132705
- 1478316 words of memory out of 5000000
- 38937 multiletter control sequences out of 15000+600000
- 27041 words of font info for 35 fonts, out of 8000000 for 9000
+ 38409 strings out of 492995
+ 668489 string characters out of 6132705
+ 1718292 words of memory out of 5000000
+ 41280 multiletter control sequences out of 15000+600000
+ 41170 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,80p,10391b,20673s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on pilha-fila.pdf (12 pages, 50005 bytes).
+ 58i,12n,117p,10391b,22239s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathi
+t.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/us
+r/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/
+utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b>
+Output written on pilha-fila.pdf (14 pages, 83606 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 285 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 118 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
