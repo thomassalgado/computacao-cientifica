@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.9)  11 JUN 2017 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.9)  11 JUN 2017 21:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**pilha-fila.tex
-(./pilha-fila.tex
+**relatorio01-pilha-fila.tex
+(./relatorio01-pilha-fila.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fei/fei.cls
@@ -1955,22 +1955,22 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-\pilha-fila@idxfile=\write21
-\openout4 = `pilha-fila.idx'.
+\relatorio01-pilha-fila@idxfile=\write21
+\openout4 = `relatorio01-pilha-fila.idx'.
 
 
-Writing index file pilha-fila.idx
+Writing index file relatorio01-pilha-fila.idx
 \glswrite=\write22
 \glo@acronym@file=\write23
-\openout4 = `pilha-fila.acn'.
+\openout4 = `relatorio01-pilha-fila.acn'.
 
-Package glossaries Info: Writing glossary file pilha-fila.acn on input line 110
-.
+Package glossaries Info: Writing glossary file relatorio01-pilha-fila.acn on in
+put line 110.
 \glo@symbols@file=\write24
-\openout4 = `pilha-fila.slo'.
+\openout4 = `relatorio01-pilha-fila.slo'.
 
-Package glossaries Info: Writing glossary file pilha-fila.slo on input line 110
-.
+Package glossaries Info: Writing glossary file relatorio01-pilha-fila.slo on in
+put line 110.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -2003,8 +2003,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-(./pilha-fila.aux)
-\openout1 = `pilha-fila.aux'.
+(./relatorio01-pilha-fila.aux)
+\openout1 = `relatorio01-pilha-fila.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
 LaTeX Font Info:    ... okay on input line 112.
@@ -2092,25 +2092,25 @@ LaTeX Info: Redefining \nameref on input line 112.
 LaTeX Info: Redefining \ref on input line 112.
 LaTeX Info: Redefining \pageref on input line 112.
 LaTeX Info: Redefining \nameref on input line 112.
-(./pilha-fila.out) (./pilha-fila.out)
+(./relatorio01-pilha-fila.out) (./relatorio01-pilha-fila.out)
 \@outlinefile=\write25
-\openout4 = `pilha-fila.out'.
+\openout4 = `relatorio01-pilha-fila.out'.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Input encoding 'ascii' forced by
 (biblatex)             'safeinputenc' option.
-\openout4 = `pilha-fila.bcf'.
+\openout4 = `relatorio01-pilha-fila.bcf'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'pilha-fila.bbl' not found.
+Package biblatex Info: ... file 'relatorio01-pilha-fila.bbl' not found.
 
-No file pilha-fila.bbl.
+No file relatorio01-pilha-fila.bbl.
 Package biblatex Info: Reference section=0 on input line 112.
 Package biblatex Info: Reference segment=0 on input line 112.
 \c@lstlisting=\count486
@@ -2120,523 +2120,484 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 115.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 115.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+(./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.xdy'.
+\openout4 = `relatorio01-pilha-fila.xdy'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.xdy'.
+\openout4 = `relatorio01-pilha-fila.xdy'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 119.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 119.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
  [2
 
 
-] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
-
- (./pilha-fila.lof)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 121.
-\openout4 = `pilha-fila.mw'.
-
- [3
+] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 
-] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
-
- (./pilha-fila.lot)
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 122.
-\openout4 = `pilha-fila.mw'.
-
- [4
-
-
-] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
-
-
-No file pilha-fila.acr.
-No file pilha-fila.sls.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 124.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 124.
-\openout4 = `pilha-fila.mw'.
-
-[5
-
-] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
-
- (./pilha-fila.toc
+(./relatorio01-pilha-fila.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 6.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -2668,13 +2629,14 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 124.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 124.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [6
+ [3
+
 
 ]
-(./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+(./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 126.
@@ -2685,7 +2647,8 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 138.
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 144.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Overfull \hbox (60.56299pt too wide) in paragraph at lines 143--145
@@ -2697,29 +2660,29 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 146.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 146.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-[7
+[4
 
 
-] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 146.
@@ -2733,24 +2696,24 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 179.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 179.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [8
+ [5
 
-] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 179.
@@ -2758,16 +2721,17 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 183.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 183.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [9
+ [6
 
-] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+]
+(./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 183.
@@ -2797,21 +2761,21 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 227.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 227.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [10
+ [7
 
 ]
-(./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+(./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2823,10 +2787,10 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 283.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 283.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [11] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+ [8] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 295.
@@ -2840,24 +2804,24 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [12] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+ [9]
+(./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 337.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [13]
-(./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+ [10] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -2869,279 +2833,311 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 385.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 385.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [14] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+ [11]
+(./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 397.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 397.
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [15] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 399.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 399.
-\openout4 = `pilha-fila.mw'.
-
- [16]
-(./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+ [12] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 399.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 403.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 403.
-\openout4 = `pilha-fila.mw'.
+(babel)             in language  on input line 399.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
- [17
-
-] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
+ [13]
+(./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 403.
+(babel)             in language  on input line 399.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 404.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 482.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 482.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 482.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
+ [14
 
-LaTeX Warning: Empty bibliography on input line 407.
+] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 409.
+(babel)             in language  on input line 482.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 410.
+(babel)             in language  on input line 482.
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+ [15]
+(./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 410.
-\openout4 = `pilha-fila.mw'.
+(babel)             in language  on input line 490.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 490.
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+ [16] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 502.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 502.
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+ [17]
+(./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 502.
+
+
+LaTeX Warning: Empty bibliography on input line 506.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 508.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 509.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 509.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 [18
 
-] (./pilha-fila.mw)
-\openout4 = `pilha-fila.mw'.
+] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.idx'.
+\openout4 = `relatorio01-pilha-fila.idx'.
 
 
-No file pilha-fila.ind.
-\tf@lof=\write26
-\openout4 = `pilha-fila.lof'.
+No file relatorio01-pilha-fila.ind.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 510.
+bibitemlist
 
-\tf@lot=\write27
-\openout4 = `pilha-fila.lot'.
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
 
-\tf@toc=\write28
-\openout4 = `pilha-fila.toc'.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 519.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 519.
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+[19
+
+
+] (./relatorio01-pilha-fila.mw)
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+\openout4 = `relatorio01-pilha-fila.mw'.
+
+\tf@toc=\write26
+\openout4 = `relatorio01-pilha-fila.toc'.
+
 
 
 Package imakeidx Warning: Remember to run (pdf)latex again after calling
-(imakeidx)                `texindy pilha-fila.idx'.
+(imakeidx)                `texindy relatorio01-pilha-fila.idx'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 411.
-(./pilha-fila.aux
-\openout4 = `pilha-fila.mw'.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 519.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 519.
+(./relatorio01-pilha-fila.aux
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
-
-\openout4 = `pilha-fila.mw'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 411.
-\openout4 = `pilha-fila.out'.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 519.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 519.
+\openout4 = `relatorio01-pilha-fila.out'.
 
-Package rerunfilecheck Info: File `pilha-fila.out' has not changed.
-(rerunfilecheck)             Checksum: 7CE34A896AA73AB0A40DC52C8046CACA;752.
-\openout4 = `pilha-fila.mw'.
+Package rerunfilecheck Info: File `relatorio01-pilha-fila.out' has not changed.
 
-\openout4 = `pilha-fila.mw'.
+(rerunfilecheck)             Checksum: 638FD842E3C6034FE14D91F883EBFCD8;803.
 
-\openout4 = `pilha-fila.bcf'.
 
-Package logreq Info: Writing requests to 'pilha-fila.run.xml'.
-\openout1 = `pilha-fila.run.xml'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-\openout4 = `pilha-fila.acn'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.slo'.
+\openout4 = `relatorio01-pilha-fila.mw'.
 
-\openout4 = `pilha-fila.lof'.
+\openout4 = `relatorio01-pilha-fila.bcf'.
 
-\openout4 = `pilha-fila.lot'.
+Package logreq Info: Writing requests to 'relatorio01-pilha-fila.run.xml'.
+\openout1 = `relatorio01-pilha-fila.run.xml'.
 
-\openout4 = `pilha-fila.toc'.
+\openout4 = `relatorio01-pilha-fila.acn'.
+
+\openout4 = `relatorio01-pilha-fila.slo'.
+
+\openout4 = `relatorio01-pilha-fila.toc'.
 
  )
 (\end occurred inside a group at level 1)
@@ -3149,27 +3145,27 @@ Package logreq Info: Writing requests to 'pilha-fila.run.xml'.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 38515 strings out of 492995
- 669972 string characters out of 6132705
- 1731292 words of memory out of 5000000
- 41295 multiletter control sequences out of 15000+600000
- 41791 words of font info for 50 fonts, out of 8000000 for 9000
+ 38620 strings out of 492995
+ 672083 string characters out of 6132705
+ 1981551 words of memory out of 5000000
+ 41318 multiletter control sequences out of 15000+600000
+ 44639 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,13n,117p,10391b,22239s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathi
-t.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/us
-r/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive
+ 58i,13n,117p,10403b,22230s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
+}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/loc
+al/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/
 utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pf
-b>
-Output written on pilha-fila.pdf (18 pages, 96315 bytes).
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on relatorio01-pilha-fila.pdf (19 pages, 112327 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 200 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 481 compressed objects within 5 object streams
+ 286 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -32,6 +32,7 @@ string Fila::desenfileira(){
         memoria[inicio] = "";
         inicio++;
         elementos--;
+        cout << "\""<< aux << "\" removido\n";
         return aux;
     } else {
         return "A Fila esta vazia\n";

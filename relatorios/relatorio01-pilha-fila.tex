@@ -118,9 +118,9 @@ Nesse relatório buscamos expor a implementação de duas estruturas de dados, F
 \palavraschave{Pilha. Fila. Estrutura de Dados. Algoritmo. C++}
 \end{resumo}
 
-\listoffigures
-\listoftables
-\printglossaries
+%\listoffigures
+%\listoftables
+%\printglossaries
 \tableofcontents
 
 \chapter{Introdução}
@@ -138,6 +138,10 @@ Esse relatório tem como objetivo a implementação das estruturas de dados de P
 \section{Metodologia}
 
 Para a implementação das estruturas de dados de pilha e fila, foi utilizada a linguagem orientada a objeto C++ visto a fácil representação das estruturas como objetos.
+Como IDE de desenvolvimento foi utilizado o programa Xcode, versão 8.3.3 (8E3004b).
+
+Tanto os códigos desenvolvidos como os arquivos fonte .tex podem ser consultados na seguinte página do  \href{https://github.com/thomassalgado/computacao-cientifica}{Github} 
+\url{https://github.com/thomassalgado/computacao-cientifica}
 
 \chapter{Teoria}
 
@@ -394,14 +398,122 @@ O algoritmo implementado de fila leva em consideração como limite o tamanho to
 
 \chapter{Resultados}
 
-Nunc molestie nunc ac lorem dictum, sit amet pl
+Para averiguação da correta implementação das estruturas de pilha e fila, o seguinte arquivo de teste main.cpp foi implementado, oferecendo um menu iterativo para efetuar as possíveis operações dentro das estruturas de dados.
+
+\begin{myenv}{main.cpp}
+\begin{lstlisting}
+//
+//  main.cpp
+//  computacao.cientifica.algoritmos
+//
+//  Created by Rafael Thomas Salgado on 07/06/17.
+//  Copyright 2017 Rafael Thomas Salgado. All rights reserved.
+//
+
+#include <iostream>
+#include "Pilha.hpp"
+#include "Fila.hpp"
+
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    
+    string entrada;
+    Pilha pilha;
+    Fila fila;
+    
+    while(true){
+        cout << "Digite:\n";
+        cout << "1 para Pilha\n";
+        cout << "2 para Fila\n";
+        cout << "0 para Sair\n";
+        getline (std::cin,entrada);
+        if(entrada.compare("0") == 0){
+            cout << "Ate breve\n";
+            return 0;
+        }else if(entrada.compare("1") == 0){
+            cout << "Operacoes em Pilha\n";
+            entrada = "";
+            cout << "Digite:\n";
+            cout << "1 para Inserir\n";
+            cout << "2 para Remover\n";
+            cout << "3 para tamanho da fila\n";
+            getline (std::cin,entrada);
+            if(entrada.compare("1") == 0){
+                cout << "Digite o valor a ser inserido\n";
+                entrada = "";
+                getline (std::cin,entrada);
+                pilha.empilha(entrada);
+            } else if(entrada.compare("2") == 0){
+                pilha.desempilha();
+            } else if(entrada.compare("3") == 0) {
+                cout << "A estrutura possui " << pilha.qtdElementos() << " elementos\n";
+            } else {
+               cout << "Opcao invalida\n";
+            }
+        } else if (entrada.compare("2") == 0){
+            cout << "Operacoes em Fila\n";
+            entrada = "";
+            cout << "Digite:\n";
+            cout << "1 para Inserir\n";
+            cout << "2 para Remover\n";
+            cout << "3 para tamanho da fila\n";
+            getline (std::cin,entrada);
+            if(entrada.compare("1") == 0){
+                cout << "Digite o valor a ser inserido\n";
+                entrada = "";
+                getline (std::cin,entrada);
+                fila.enfileira(entrada);
+            } else if(entrada.compare("2") == 0){
+                fila.desenfileira();
+            } else if(entrada.compare("3") == 0) {
+                cout << "A estrutura possui " << fila.qtdElementos() << " elementos";
+            } else {
+                cout << "Opcao invalida\n";
+            }
+            
+        } else {
+            cout << "Opcao invalida\n";
+        }
+    }
+    return 0;
+}
+\end{lstlisting}
+\end{myenv}
+
+O menu oferece as seguintes opções:
+
+\begin{enumerate}
+  \item 1 para operações em \textbf{\textit{Pilha}}
+  \item 2 para operações em \textbf{\textit{Fila}}
+  \item 0 para abandonar o programa
+\end{enumerate}
+
+Escolhendo \textbf{\textit{Pilha}} ou \textbf{\textit{Fila}}, as seguintes opções estão disponíveis
+
+\begin{enumerate}
+  \item 1 para \textbf{\textit{Inserir}}
+  \item 2 para \textbf{\textit{Remover}}
+  \item 3 para \textbf{\textit{Quantidade de elementos}}
+\end{enumerate}
+
+Com base no programa de testes foi possível verificar a implementação correta dos algoritmos e sua eficiência para armazenamento de dados.
 
 \chapter{Conclusão}
 
-Nunc molestie nunc ac lorem dictum, sit amet pl
+Pode concluir que apesar de simples, as estruturas de dados de Pilha e Fila são ferramentas poderosas para o desenvolvimento de algoritmos pois a sua manipulação de dados fornece uma base para o desenvolvimento de outras estruturas de dados mais complexas e algoritmos que necessitam armazenar dados de forma simples.
 
 \printbibliography
 
 \printindex
+
+\begin{thebibliography}{9}
+
+\bibitem[C17]{C17}
+{Cormen, T. H.}, {Leiserson, C. E.}, and {Rivest, R. L.}
+\newblock {\em Introduction to Algorithms}.
+\newblock McGraw-Hill, 1990.
+
+\end{thebibliography}
 
 \end{document}

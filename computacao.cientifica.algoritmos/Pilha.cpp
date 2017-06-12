@@ -32,6 +32,7 @@ string Pilha::desempilha(){
         posicaoTopo--;
         string aux = memoria[posicaoTopo];
         memoria[posicaoTopo]="";
+        cout << "\""<< aux << "\" removido\n";
         return aux;
     }
 }

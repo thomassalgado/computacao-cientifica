@@ -8,25 +8,69 @@
 
 #include <iostream>
 #include "Pilha.hpp"
+#include "Fila.hpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    Pilha p;
-    p.empilha("Ola");
-    //cout << p.desempilha() << "\n";
-    p.empilha("Ola2");
-    cout << p.desempilha() << "\n";
-    p.empilha("Ola3");
-    //cout << p.desempilha() << "\n";
-    p.empilha("Ola4");
-    //cout << p.desempilha() << "\n";
-    p.empilha("Ola5");
-    //cout << p.desempilha() << "\n";
-    p.empilha("Ola6");
-    //cout << p.desempilha() << "\n";
-    p.empilha("Ola7");
-    //cout << p.desempilha() << "\n";
-    cout << "Elemento no topo \"" << p.topo() << "\"\n";
+    
+    string entrada;
+    Pilha pilha;
+    Fila fila;
+    
+    while(true){
+        cout << "Digite:\n";
+        cout << "1 para Pilha\n";
+        cout << "2 para Fila\n";
+        cout << "0 para Sair\n";
+        getline (std::cin,entrada);
+        if(entrada.compare("0") == 0){
+            cout << "Ate breve\n";
+            return 0;
+        }else if(entrada.compare("1") == 0){
+            cout << "Operacoes em Pilha\n";
+            entrada = "";
+            cout << "Digite:\n";
+            cout << "1 para Inserir\n";
+            cout << "2 para Remover\n";
+            cout << "3 para tamanho da fila\n";
+            getline (std::cin,entrada);
+            if(entrada.compare("1") == 0){
+                cout << "Digite o valor a ser inserido\n";
+                entrada = "";
+                getline (std::cin,entrada);
+                pilha.empilha(entrada);
+            } else if(entrada.compare("2") == 0){
+                pilha.desempilha();
+            } else if(entrada.compare("3") == 0) {
+                cout << "A estrutura possui " << pilha.qtdElementos() << " elementos\n";
+            } else {
+               cout << "Opcao invalida\n";
+            }
+        } else if (entrada.compare("2") == 0){
+            cout << "Operacoes em Fila\n";
+            entrada = "";
+            cout << "Digite:\n";
+            cout << "1 para Inserir\n";
+            cout << "2 para Remover\n";
+            cout << "3 para tamanho da fila\n";
+            getline (std::cin,entrada);
+            if(entrada.compare("1") == 0){
+                cout << "Digite o valor a ser inserido\n";
+                entrada = "";
+                getline (std::cin,entrada);
+                fila.enfileira(entrada);
+            } else if(entrada.compare("2") == 0){
+                fila.desenfileira();
+            } else if(entrada.compare("3") == 0) {
+                cout << "A estrutura possui " << fila.qtdElementos() << " elementos";
+            } else {
+                cout << "Opcao invalida\n";
+            }
+            
+        } else {
+            cout << "Opcao invalida\n";
+        }
+    }
     return 0;
 }
