@@ -9,6 +9,7 @@
 #include <iostream>
 #include "Pilha.hpp"
 #include "Fila.hpp"
+#include "Lista.hpp"
 
 using namespace std;
 
@@ -17,6 +18,11 @@ int main(int argc, const char * argv[]) {
     string entrada;
     Pilha pilha;
     Fila fila;
+    Lista lista;
+        
+    lista.inserir("ola");
+    lista.inserirInicio("ola");
+    cout << "Lista: " << lista << "\n";
     
     while(true){
         cout << "Digite:\n";
