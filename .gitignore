@@ -1,1 +1,4 @@
 .DS_Store
+/relatorios/*
+!/relatorios/*.tex
+!/relatorios/*.pdf
