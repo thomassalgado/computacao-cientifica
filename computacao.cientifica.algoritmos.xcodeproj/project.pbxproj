@@ -12,6 +12,7 @@
 		0634FB171EEA03B400AE0258 /* Fila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB151EEA03B400AE0258 /* Fila.cpp */; };
 		E97DE6011EF7002E00897226 /* No.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97DE5FF1EF7002E00897226 /* No.cpp */; };
 		E97DE6041EF7053000897226 /* Lista.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97DE6021EF7053000897226 /* Lista.cpp */; };
+		E9F5CDE71EF7306100BCFC27 /* PilhaComLista.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9F5CDE51EF7306100BCFC27 /* PilhaComLista.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		E97DE6001EF7002E00897226 /* No.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = No.hpp; path = computacao.cientifica.algoritmos/No.hpp; sourceTree = "<group>"; };
 		E97DE6021EF7053000897226 /* Lista.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lista.cpp; path = computacao.cientifica.algoritmos/Lista.cpp; sourceTree = "<group>"; };
 		E97DE6031EF7053000897226 /* Lista.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Lista.hpp; path = computacao.cientifica.algoritmos/Lista.hpp; sourceTree = "<group>"; };
+		E9F5CDE51EF7306100BCFC27 /* PilhaComLista.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PilhaComLista.cpp; sourceTree = "<group>"; };
+		E9F5CDE61EF7306100BCFC27 /* PilhaComLista.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PilhaComLista.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				0634FB0D1EE8B67A00AE0258 /* Pilha.cpp */,
 				0634FB0E1EE8B67A00AE0258 /* Pilha.hpp */,
+				E9F5CDE51EF7306100BCFC27 /* PilhaComLista.cpp */,
+				E9F5CDE61EF7306100BCFC27 /* PilhaComLista.hpp */,
 			);
 			name = computacao.cientifica.algoritmos.pilha;
 			path = computacao.cientifica.algoritmos;
@@ -168,6 +173,7 @@
 				0634FB171EEA03B400AE0258 /* Fila.cpp in Sources */,
 				0634FB0F1EE8B67A00AE0258 /* Pilha.cpp in Sources */,
 				E97DE6041EF7053000897226 /* Lista.cpp in Sources */,
+				E9F5CDE71EF7306100BCFC27 /* PilhaComLista.cpp in Sources */,
 				0634FB071EE8B5D200AE0258 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
