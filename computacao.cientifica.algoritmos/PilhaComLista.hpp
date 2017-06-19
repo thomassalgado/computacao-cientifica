@@ -22,7 +22,7 @@ using namespace std;
 /*
  * Pilha implementada com lista duplamente ligada
  */
-class PilhaComLista : public Lista{
+class PilhaComLista : public Lista {
 public:
     /*
      * Empilha um elemento

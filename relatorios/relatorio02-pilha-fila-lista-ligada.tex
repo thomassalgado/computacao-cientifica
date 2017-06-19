@@ -1,0 +1,517 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[rascunho,xindy,sublist]{fei}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\lstset { %
+    language=C++,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\footnotesize,% basic font setting
+}
+
+\definecolor{listinggray}{gray}{0.9}
+%\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+\definecolor{lbcolor}{rgb}{1,1,1}
+\lstset{
+backgroundcolor=\color{lbcolor},
+    	tabsize=4,    
+    	language=[GNU]C++,
+        basicstyle=\scriptsize,
+        upquote=true,
+        aboveskip={1.5\baselineskip},
+        columns=fixed,
+        showstringspaces=false,
+        extendedchars=false,
+        breaklines=true,
+        prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+        frame=single,
+        numbers=left,
+        showtabs=false,
+        showspaces=false,
+        showstringspaces=false,
+        identifierstyle=\ttfamily,
+        keywordstyle=\color[rgb]{0,0,1},
+        commentstyle=\color[rgb]{0.026,0.112,0.095},
+        stringstyle=\color[rgb]{0.627,0.126,0.941},
+        numberstyle=\color[rgb]{0.205, 0.142, 0.73}
+}
+\lstset{
+  	backgroundcolor=\color{lbcolor},
+	tabsize=4,
+  	language=C++,
+  	captionpos=b,
+  	tabsize=3,
+  	frame=lines,
+  	numbers=left,
+  	numberstyle=\tiny,
+  	numbersep=5pt,
+  	breaklines=true,
+  	showstringspaces=false,
+  	basicstyle=\footnotesize,
+  	keywordstyle=\color[rgb]{0,0,1},
+  	commentstyle=\color[rgb]{0,0.502,0},
+  	stringstyle=\color{red}
+}
+
+
+\newenvironment{myenv}[1]
+  {\mdfsetup{
+    frametitle={\colorbox{white}{\space#1\space}},
+    innertopmargin=10pt,
+    frametitleaboveskip=-\ht\strutbox,
+    frametitlealignment=\center
+    }
+  \begin{mdframed}%
+  }
+  {\end{mdframed}}
+
+\author{Rafael Thomas Pontes Salgado}
+\title{Relatório 02}
+\subtitulo{Pilhas e Filas com Lista Ligada­}
+
+\cidade{São Bernardo do Campo}
+\instituicao{Centro Universitário FEI}
+
+%%%% -- Entradas Listas de Abreviaturas e Simbolos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% -- Titulos - comentar caso a respectiva lista nao seja utilizada
+\newglossaryentry{acro}{name={},description={\nopostdesc},sort=a} %Usado para alinhar a lista de abreviaturas
+\newglossaryentry{geral}{name={Geral},description={\nopostdesc},sort=a}
+\newglossaryentry{greek}{name={Letras gregas},description={\nopostdesc},sort=b}
+\newglossaryentry{sub}{name={Subscritos},description={\nopostdesc},sort=c}
+
+%% -- Abreviaturas
+\newacronym[longplural=Centro Universitário da FEI,parent=acro]{fei}{FEI}{Centro Universitário da FEI}
+
+%% -- Simbolos
+%% -- Latin letters
+%\newglossaryentry{}{parent=geral,type=symbols,name={},sort=a,description={}
+\newglossaryentry{A}{parent=geral,type=symbols,name={\ensuremath{A}},sort=a,description={exchanger total heat transfer area, $m^2$}}
+\newglossaryentry{G}{parent=geral,type=symbols,name={\ensuremath{G}},sort=g,description={exchanger flow-stream mass velocity, $kg/(s m^2)$}}
+\newglossaryentry{f}{parent=geral,type=symbols,name={\ensuremath{j}},sort=j,description={friction factor, dimensionless}}
+
+%% -- Greek letters
+%\newglossaryentry{}{parent=geral,type=symbols,name={},sort=a,description={}
+\newglossaryentry{deltap}{parent=greek,type=symbols,name={\ensuremath{\Delta P}},sort=p,description={pressure drop, $Pa$}}
+\newglossaryentry{nu}{parent=greek,type=symbols,name={\ensuremath{\nu}},sort=b,description={specific volume, $m^3/kg$}}
+\newglossaryentry{beta}{parent=greek,type=symbols,name={\ensuremath{\beta}},sort=b,description={ratio of free-flow area $A_{ff}$ and frontal area $A_{fr}$ of one side of exchanger, dimensionless}}
+
+%% -- Subscripts
+%\newglossaryentry{}{parent=geral,type=symbols,name={},sort=a,description={}
+\newglossaryentry{fr}{parent=sub,type=symbols,name={\ensuremath{fr}},sort=fr,description={frontal}}
+\newglossaryentry{in}{parent=sub,type=symbols,name={\ensuremath{i}},sort=in,description={inlet}}
+\newglossaryentry{out}{parent=sub,type=symbols,name={\ensuremath{o}},sort=out,description={outlet}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeindex
+\makeglossaries
+
+\begin{document}
+
+\maketitle
+
+\begin{resumo}
+Nesse relatório buscamos expor a implementação de duas estruturas de dados, Fila e Pilha, utilizando como base a estrutura de Lista duplamente ligada mostrando como são conceitualmente, para quais problemas são utilizadas e exemplos de implementação em linguagem C++.
+\palavraschave{Pilha. Fila. Estrutura de Dados. Algoritmo. C++}
+\end{resumo}
+
+%\listoffigures
+%\listoftables
+%\printglossaries
+\tableofcontents
+
+\chapter{Introdução}
+
+Durante nossa vida nos deparamos com inúmeros problemas diários onde uma organização deve ser dada aos elementos para que possamos resolver os problemas de forma eficaz. Quando vamos ao banco pagar uma conta ou quando simplesmente vamos organizar as cartas de um baralho, certas estruturas naturais estão sempre presentes para nos auxiliar e as mais comumente encontradas são as estruturas de pilha e fila que serão o objetivo desse relatório.
+
+\section{Motivação}
+
+Por serem estruturas de dados utilizadas de forma recorrente em diversos algoritmos, esse trabalho tem a motivação de estudar as estruturas de dados de pilha e fila para seu maior entendimento e ajuda na escolha das mesmas em futuras implementações.
+
+\section{Objetivo}
+
+Esse relatório tem como objetivo a implementação das estruturas de dados de Pilha e Fila utilizando a linguagem orientada a objeto C++, verificando sua complexidade de implementação e exemplificando usos das mesmas.
+
+\section{Metodologia}
+
+Para a implementação das estruturas de dados de pilha e fila, foi utilizada a linguagem orientada a objeto C++ visto a fácil representação das estruturas como objetos.
+Como IDE de desenvolvimento foi utilizado o programa Xcode, versão 8.3.3 (8E3004b).
+
+Tanto os códigos desenvolvidos como os arquivos fonte .tex podem ser consultados na seguinte página do  \href{https://github.com/thomassalgado/computacao-cientifica}{Github} 
+\url{https://github.com/thomassalgado/computacao-cientifica}
+
+\chapter{Teoria}
+
+A seguir iremos descrever as estruturas de pilha e fila, bem como suas propriedades e métodos
+
+\section{Pilha}
+
+Pilha é uma estrutura de dados onde um conjunto de elementos é organizado da forma \textbf{último a entrar, primeiro a sair}, possuindo as seguintes operações:
+
+\begin{enumerate}
+  \item \textbf{\textit{Inserir}} ou \textbf{\textit{Push}}
+  \item \textbf{\textit{Remover}} ou \textbf{\textit{Pop}}
+  \item \textbf{\textit{Topo}} ou \textbf{\textit{Top}}
+\end{enumerate}
+
+O método \textbf{\textit{Inserir}} adiciona um novo elemento a estrutura de dados fazendo com que o mesmo seja representado como estando no topo da pilha
+
+O metodo \textbf{\textit{Remover}} retira o elemento atualmente no top da pilha da estrutura de dados, o elemento subsequente passa a ser o novo topo da pilha ou a mesma ficará vazia.
+
+O metodo \textbf{\textit{Topo}} informa qual é o elemento que esta atualmente no topo da pilha, sem removê-lo.
+
+\section{Fila}
+
+Fila é uma estrutura de dados onde um conjunto de elementos é organizado da forma \textbf{primeiro a entrar, primeiro a sair}, possuindo as seguintes operações:
+
+\begin{enumerate}
+  \item \textbf{\textit{Inserir}} ou \textbf{\textit{Enqueue}}
+  \item \textbf{\textit{Remover}} ou \textbf{\textit{Dequeue}}
+\end{enumerate}
+
+O método \textbf{\textit{Inserir}} adiciona um novo elemento a estrutura de dados fazendo com que o mesmo seja representado como estando no fim da fila. Caso não exista outro elemento na fila, o mesmo é marcado tambem como estando no início da fila e portando sendo o próximo a ser removido pelo método  \textbf{\textit{Remover}}. 
+
+O metodo \textbf{\textit{Remover}} retira o elemento atualmente no início da fila, o elemento subsequente passa a ser o novo início e caso não existam novos elementos a mesma ficará vazia.
+
+\chapter{Trabalhos correlatos}
+
+Por se tratarem de elementos bem difundidos no ramo científico e de implementação simples, não foram encontrados trabalhos ou pesquisas relacionadas diretamente ao estudo das estruturas de pilha e fila, entretanto as mesmas são base base a implementação de uma enorme quantidade de algoritmos.
+
+\chapter{Proposta}
+
+\section{Implementação de Pilha}
+
+Para a implementação da estrutura de Pilha na linguagem C++, a clase de nome Pilha foi criada, com sua estrutura definida no arquivo \textbf{\textit{Pilha.hpp}} e sua implementação definida no arquivo \textbf{\textit{Pilha.cpp}}
+
+Os elementos da estrutura de dados serão inseridos no vetor de nome  \textbf{\textit{memória}} que foi definido com o tamanho de 1000 pela constante \textbf{\textit{SIZE}} 
+
+\begin{myenv}{Pilha.hpp}
+\begin{lstlisting}
+//
+//  Pilha.hpp
+//  computacao.cientifica.algoritmos.pilha
+//
+//  Created by Rafael Thomas Salgado on 07/06/17.
+//  Copyright 2017 Rafael Thomas Salgado. All rights reserved.
+//
+
+#ifndef Pilha_hpp
+#define Pilha_hpp
+#define SIZE 1000
+
+
+#include <stdio.h>
+#include <string>
+#include <iostream>
+
+#endif /* Pilha_hpp */
+
+using namespace std;
+
+class Pilha {
+private:
+    string memoria[SIZE];
+    int posicaoTopo;
+    
+public:
+    Pilha();
+    void empilha(string entrada);
+    string desempilha();
+    string topo();
+    int qtdElementos();
+};
+\end{lstlisting}
+\end{myenv}
+
+
+\begin{myenv}{Pilha.cpp}
+\begin{lstlisting}
+//
+//  Pilha.cpp
+//  computacao.cientifica.algoritmos.pilha
+//
+//  Created by Rafael Thomas Salgado on 07/06/17.
+//  Copyright 2017 Rafael Thomas Salgado. All rights reserved.
+//
+
+#include "Pilha.hpp"
+
+Pilha::Pilha(){
+    posicaoTopo = 0;
+}
+
+void Pilha::empilha(string entrada){
+    if(posicaoTopo < SIZE){
+        memoria[posicaoTopo] = entrada;
+        posicaoTopo++;
+        cout << "Elemento \"" << entrada << "\" empilhado com sucesso\n";
+    } else {
+        cout << "A Pilha esta cheia\n";
+    }
+    return;
+}
+
+string Pilha::desempilha(){
+    
+    if(posicaoTopo == 0){
+        cout << "A Pilha esta vazia\n";
+        return "";
+    } else {
+        posicaoTopo--;
+        string aux = memoria[posicaoTopo];
+        memoria[posicaoTopo]="";
+        return aux;
+    }
+}
+
+string Pilha::topo(){
+    if(posicaoTopo == 0){
+        cout << "A Pilha esta vazia\n";
+        return "";
+    } else {
+        return memoria[posicaoTopo - 1];
+    }
+}
+
+int Pilha::qtdElementos(){
+    return posicaoTopo;
+}
+\end{lstlisting}
+\end{myenv}
+
+A variável \textbf{\textit{posicaoTopo}} indica a posição em que um novo elemento deverá inserido e tambem representa a quantidade de elementos inseridos na pilha
+
+O método \textbf{\textit{empilha}} recebe como parâmetro uma string e verifica se ainda existe espaço na pilha para a inserção de novos itens. caso exista, insere o novo elemento na pilha, retornando uma mensagem de sucesso, caso contrário, retorna uma mensagem de erro informando que a pilha esta cheia.
+
+O método \textbf{\textit{desempilha}} não recebe parâmetros e retorna o elemento que se encontra no topo da pilha, removendo-o da mesma. Caso a pilha esteja vazia, uma mensagem de erro é retornada.
+
+O método \textbf{\textit{topo}} não recebe parâmetros e retorna o elemento que se encontra no topo da pilha, sem removê-lo. Caso a pilha esteja vazia, uma mensagem de erro é retornada.
+
+O método auxiliar \textbf{\textit{qtdElementos}} informa a quantidade de elementos que estão na pilha no momento.
+
+\section{Implementação de Fila}
+
+Para a implementação da estrutura de Fila na linguagem C++, a clase de nome Fila foi criada, com sua estrutura definida no arquivo \textbf{\textit{Fila.hpp}} e sua implementação definida no arquivo \textbf{\textit{Fila.cpp}}
+
+Os elementos da estrutura de dados serão inseridos no vetor de nome  \textbf{\textit{memória}} que foi definido com o tamanho de 1000 pela constante \textbf{\textit{SIZE}} 
+
+\begin{myenv}{Fila.hpp}
+\begin{lstlisting}
+//
+//  Fila.hpp
+//  computacao.cientifica.algoritmos
+//
+//  Created by Rafael Thomas Salgado on 08/06/17.
+//  Copyright 2017 Rafael Thomas Salgado. All rights reserved.
+//
+
+#ifndef Fila_hpp
+
+#define Fila_hpp
+#define SIZE 1000
+#include <stdio.h>
+#include <string>
+#include <iostream>
+
+#endif /* Fila_hpp */
+
+using namespace std;
+
+class Fila {
+private:
+    string memoria[SIZE];
+    int inicio;
+    int fim;
+    int elementos;
+    
+public:
+    Fila();
+    string desenfileira();
+    void enfileira(string entrada);
+    int qtdElementos();
+};
+\end{lstlisting}
+\end{myenv}
+
+\begin{myenv}{Fila.cpp}
+\begin{lstlisting}
+//
+//  Fila.cpp
+//  computacao.cientifica.algoritmos
+//
+//  Created by Rafael Thomas Salgado on 08/06/17.
+//  Copyright 2017 Rafael Thomas Salgado. All rights reserved.
+//
+
+#include "Fila.hpp"
+
+Fila::Fila(){
+    inicio = 0;
+    fim = 0;
+    elementos = 0;
+}
+
+void Fila::enfileira(string entrada){
+    if(fim < SIZE){
+        memoria[fim] = entrada;
+        fim++;
+        elementos++;
+        cout << "Elemento \"" << entrada << "\" empilhado com sucesso\n";
+    } else {
+        cout << "A Fila esta cheia\n";
+    }
+    return;
+}
+
+string Fila::desenfileira(){
+    if(inicio < SIZE && inicio < fim){
+        string aux = memoria[inicio];
+        memoria[inicio] = "";
+        inicio++;
+        elementos--;
+        return aux;
+    } else {
+        return "A Fila esta vazia\n";
+    }
+}
+
+int Fila::qtdElementos(){
+    return elementos;
+}
+\end{lstlisting}
+\end{myenv}
+
+A variável \textbf{\textit{inicio}} indica a posição de inicio da fila, sendo a referencia para remoção do proximo elemento.
+
+A variável \textbf{\textit{fim}} indica a posição do próximo elemento que será inserido na fila.
+
+A variável \textbf{\textit{elementos}} funciona de forma auxiliar para indicar a quantidade de elementos que existem na fila.
+
+O método \textbf{\textit{enfileira}} recebe como parâmetro uma string e verifica se ainda existe espaço na fila para a inserção de novos itens. caso exista, insere o novo elemento na fila, incrementando a posição fim da fila e retornando uma mensagem de sucesso, caso contrário, retorna uma mensagem de erro informando que a fila esta cheia.
+
+O método \textbf{\textit{desenfileira}} não recebe parâmetros e verifica se a fila não esta vazia, analisando se os valores de inicio e fim são iguais (o que evidenciaria uma fila vazia), ou se o valor de fim não ultrapassa o tamanho total da fila definido em SIZE, retornando uma mensagem de erro em qualquer um dos casos anteriores. Caso nenhuma das condições anteriores seja validada, o valor de correspondente a posição de fim é retornado, incrementando-se a posição de fim para a próxima casa do vetor.
+
+O algoritmo implementado de fila leva em consideração como limite o tamanho total da fila definido em SIZE, caso esse valor seja ultrapassado, mesmo que existam posições disponíveis no array memória, as mesmas não serão utilizadas. Para sanar esse problemas, uma implementação de fila circular deverá ser feita, entretanto sua abordagem esta fora do escopo desse relatório.
+
+\chapter{Resultados}
+
+Para averiguação da correta implementação das estruturas de pilha e fila, o seguinte arquivo de teste main.cpp foi implementado, oferecendo um menu iterativo para efetuar as possíveis operações dentro das estruturas de dados.
+
+\begin{myenv}{main.cpp}
+\begin{lstlisting}
+//
+//  main.cpp
+//  computacao.cientifica.algoritmos
+//
+//  Created by Rafael Thomas Salgado on 07/06/17.
+//  Copyright 2017 Rafael Thomas Salgado. All rights reserved.
+//
+
+#include <iostream>
+#include "Pilha.hpp"
+#include "Fila.hpp"
+
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+    
+    string entrada;
+    Pilha pilha;
+    Fila fila;
+    
+    while(true){
+        cout << "Digite:\n";
+        cout << "1 para Pilha\n";
+        cout << "2 para Fila\n";
+        cout << "0 para Sair\n";
+        getline (std::cin,entrada);
+        if(entrada.compare("0") == 0){
+            cout << "Ate breve\n";
+            return 0;
+        }else if(entrada.compare("1") == 0){
+            cout << "Operacoes em Pilha\n";
+            entrada = "";
+            cout << "Digite:\n";
+            cout << "1 para Inserir\n";
+            cout << "2 para Remover\n";
+            cout << "3 para tamanho da fila\n";
+            getline (std::cin,entrada);
+            if(entrada.compare("1") == 0){
+                cout << "Digite o valor a ser inserido\n";
+                entrada = "";
+                getline (std::cin,entrada);
+                pilha.empilha(entrada);
+            } else if(entrada.compare("2") == 0){
+                pilha.desempilha();
+            } else if(entrada.compare("3") == 0) {
+                cout << "A estrutura possui " << pilha.qtdElementos() << " elementos\n";
+            } else {
+               cout << "Opcao invalida\n";
+            }
+        } else if (entrada.compare("2") == 0){
+            cout << "Operacoes em Fila\n";
+            entrada = "";
+            cout << "Digite:\n";
+            cout << "1 para Inserir\n";
+            cout << "2 para Remover\n";
+            cout << "3 para tamanho da fila\n";
+            getline (std::cin,entrada);
+            if(entrada.compare("1") == 0){
+                cout << "Digite o valor a ser inserido\n";
+                entrada = "";
+                getline (std::cin,entrada);
+                fila.enfileira(entrada);
+            } else if(entrada.compare("2") == 0){
+                fila.desenfileira();
+            } else if(entrada.compare("3") == 0) {
+                cout << "A estrutura possui " << fila.qtdElementos() << " elementos";
+            } else {
+                cout << "Opcao invalida\n";
+            }
+            
+        } else {
+            cout << "Opcao invalida\n";
+        }
+    }
+    return 0;
+}
+\end{lstlisting}
+\end{myenv}
+
+O menu oferece as seguintes opções:
+
+\begin{enumerate}
+  \item 1 para operações em \textbf{\textit{Pilha}}
+  \item 2 para operações em \textbf{\textit{Fila}}
+  \item 0 para abandonar o programa
+\end{enumerate}
+
+Escolhendo \textbf{\textit{Pilha}} ou \textbf{\textit{Fila}}, as seguintes opções estão disponíveis
+
+\begin{enumerate}
+  \item 1 para \textbf{\textit{Inserir}}
+  \item 2 para \textbf{\textit{Remover}}
+  \item 3 para \textbf{\textit{Quantidade de elementos}}
+\end{enumerate}
+
+Com base no programa de testes foi possível verificar a implementação correta dos algoritmos e sua eficiência para armazenamento de dados.
+
+\chapter{Conclusão}
+
+Pode concluir que apesar de simples, as estruturas de dados de Pilha e Fila são ferramentas poderosas para o desenvolvimento de algoritmos pois a sua manipulação de dados fornece uma base para o desenvolvimento de outras estruturas de dados mais complexas e algoritmos que necessitam armazenar dados de forma simples.
+
+%\printbibliography
+
+\printindex
+
+\begin{thebibliography}{9}
+
+\bibitem[C17]{C17}
+{Cormen, T. H.}, {Leiserson, C. E.}, and {Rivest, R. L.}
+\newblock {\em Introduction to Algorithms}.
+\newblock McGraw-Hill, 1990.
+
+\end{thebibliography}
+
+\end{document}
