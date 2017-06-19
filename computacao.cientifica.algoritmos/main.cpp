@@ -6,33 +6,26 @@
 //  Copyright © 2017 Rafael Thomas Salgado. All rights reserved.
 //
 
+
+#ifndef main_cpp
+
 #include <iostream>
 #include "Pilha.hpp"
 #include "Fila.hpp"
-//#include "Lista.hpp"
 #include "PilhaComLista.hpp"
+#include "FilaComLista.hpp"
+
+#endif /* main_cpp */
+
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
   
     string entrada;
-    Pilha pilha;
-    Fila fila;
-    Lista lista;
-    PilhaComLista pilhaList;
-    
-    pilhaList.empilha("Ola Pilha");
-    
-    cout << "Pilha: " << pilhaList << "\n";
-    cout << "Pilha Size: " << pilhaList.size() << "\n";
-    pilhaList.desempilha();
-    cout << "Pilha: " << pilhaList << "\n";
-    
-    lista.inserir("ola");
-    lista.inserirInicio("ola");
-    cout << "Lista: " << lista << "\n";
-    
+    PilhaComLista pilha;
+    FilaComLista fila;
+
     while(true){
         cout << "Digite:\n";
         cout << "1 para Pilha\n";
@@ -58,7 +51,7 @@ int main(int argc, const char * argv[]) {
             } else if(entrada.compare("2") == 0){
                 pilha.desempilha();
             } else if(entrada.compare("3") == 0) {
-                cout << "A estrutura possui " << pilha.qtdElementos() << " elementos\n";
+                cout << "A estrutura possui " << pilha.size() << " elementos\n";
             } else {
                cout << "Opcao invalida\n";
             }
@@ -78,7 +71,7 @@ int main(int argc, const char * argv[]) {
             } else if(entrada.compare("2") == 0){
                 fila.desenfileira();
             } else if(entrada.compare("3") == 0) {
-                cout << "A estrutura possui " << fila.qtdElementos() << " elementos";
+                cout << "A estrutura possui " << fila.size() << " elementos\n";
             } else {
                 cout << "Opcao invalida\n";
             }

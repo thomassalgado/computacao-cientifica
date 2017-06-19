@@ -6,6 +6,8 @@
 //  Copyright © 2017 Rafael Thomas Salgado. All rights reserved.
 //
 
+#pragma once
+
 #ifndef PilhaComLista_hpp
 #define PilhaComLista_hpp
 

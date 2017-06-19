@@ -6,6 +6,8 @@
 //  Copyright © 2017 Rafael Thomas Salgado. All rights reserved.
 //
 
+#pragma once
+
 #ifndef Pilha_hpp
 #define Pilha_hpp
 #define SIZE 1000
