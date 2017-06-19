@@ -18,7 +18,7 @@
 
 using namespace std;
 /*
- * Estrutura de dados Lista
+ * Estrutura de dados Lista duplamente ligada
  */
 class Lista {
 private:

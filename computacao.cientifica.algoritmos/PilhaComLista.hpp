@@ -17,9 +17,21 @@
 
 using namespace std;
 
+/*
+ * Pilha implementada com lista duplamente ligada
+ */
 class PilhaComLista : public Lista{
 public:
+    /*
+     * Empilha um elemento
+     */
     void empilha(string entrada);
+    /*
+     * Desempilha um elemento
+     */
     No * desempilha();
+    /*
+     * Retorna o topo da pilha sem desempilha-lo
+     */
     No * topo();
 };
