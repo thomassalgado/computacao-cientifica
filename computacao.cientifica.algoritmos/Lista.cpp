@@ -74,6 +74,14 @@ No * Lista::removerInicio(){
     }
 }
 
+No * Lista::getInicio(){
+    return inicio;
+}
+
+No * Lista::getFim(){
+    return fim;
+}
+
 long Lista::size(){
     return elementos;
 }

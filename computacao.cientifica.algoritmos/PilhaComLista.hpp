@@ -10,5 +10,16 @@
 #define PilhaComLista_hpp
 
 #include <stdio.h>
+#include <string>
+#include "Lista.hpp"
 
 #endif /* PilhaComLista_hpp */
+
+using namespace std;
+
+class PilhaComLista : public Lista{
+public:
+    void empilha(string entrada);
+    No * desempilha();
+    No * topo();
+};

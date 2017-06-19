@@ -17,17 +17,54 @@
 #endif /* Lista_hpp */
 
 using namespace std;
-
+/*
+ * Estrutura de dados Lista
+ */
 class Lista {
 private:
+    /*
+     * Ponteiro para o primeiro elemento da lista
+     */
     No *inicio;
+    /*
+     * Ponteiro para o ultimo elemento da lista
+     */
     No *fim;
+    /*
+     * Contador de elementos
+     */
     long elementos;
 public:
+    /*
+     * Insere um novo elemento no fim da lista
+     */
     void inserir(string dado);
+    /*
+     * Insere um novo elemento no inicio da lista
+     */
     void inserirInicio(string dado);
+    /*
+     * Remove um elemento do fim da lista
+     */
     No * remover();
+    /*
+     * Remove um elemento do inicio da lista
+     */
     No * removerInicio();
+    /*
+     * Retorna o primeiro elemento da lista
+     */
+    No * getInicio();
+    /*
+     * Retorna o ultimo elemento da lista
+     */
+    No * getFim();
+    /*
+     * Retorna o tamanho da lista
+     */
     long size();
+    /*
+     * Sobrecarga para impressão da lista
+     */
     friend ostream& operator<<(ostream& os, const Lista& dt);
 };

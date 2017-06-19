@@ -9,17 +9,26 @@
 #include <iostream>
 #include "Pilha.hpp"
 #include "Fila.hpp"
-#include "Lista.hpp"
+//#include "Lista.hpp"
+#include "PilhaComLista.hpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    
+  
     string entrada;
     Pilha pilha;
     Fila fila;
     Lista lista;
-        
+    PilhaComLista pilhaList;
+    
+    pilhaList.empilha("Ola Pilha");
+    
+    cout << "Pilha: " << pilhaList << "\n";
+    cout << "Pilha Size: " << pilhaList.size() << "\n";
+    pilhaList.desempilha();
+    cout << "Pilha: " << pilhaList << "\n";
+    
     lista.inserir("ola");
     lista.inserirInicio("ola");
     cout << "Lista: " << lista << "\n";
@@ -78,5 +87,6 @@ int main(int argc, const char * argv[]) {
             cout << "Opcao invalida\n";
         }
     }
+
     return 0;
 }

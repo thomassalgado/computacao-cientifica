@@ -7,3 +7,15 @@
 //
 
 #include "PilhaComLista.hpp"
+
+void PilhaComLista::empilha(string entrada){
+    Lista::inserir(entrada);
+}
+
+No * PilhaComLista::desempilha(){
+    return Lista::remover();
+}
+
+No * PilhaComLista::topo(){
+    return Lista::getFim();
+}
