@@ -10,6 +10,7 @@
 		0634FB071EE8B5D200AE0258 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB061EE8B5D200AE0258 /* main.cpp */; };
 		0634FB0F1EE8B67A00AE0258 /* Pilha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB0D1EE8B67A00AE0258 /* Pilha.cpp */; };
 		0634FB171EEA03B400AE0258 /* Fila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB151EEA03B400AE0258 /* Fila.cpp */; };
+		06D62D451F44FF2300A9D092 /* Funcao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06D62D431F44FF2300A9D092 /* Funcao.cpp */; };
 		E97DE6011EF7002E00897226 /* No.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97DE5FF1EF7002E00897226 /* No.cpp */; };
 		E97DE6041EF7053000897226 /* Lista.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97DE6021EF7053000897226 /* Lista.cpp */; };
 		E9B671A81EF754E0002EBDA9 /* FilaComLista.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B671A61EF754E0002EBDA9 /* FilaComLista.cpp */; };
@@ -35,6 +36,8 @@
 		0634FB0E1EE8B67A00AE0258 /* Pilha.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Pilha.hpp; sourceTree = "<group>"; };
 		0634FB151EEA03B400AE0258 /* Fila.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Fila.cpp; path = computacao.cientifica.algoritmos/Fila.cpp; sourceTree = "<group>"; };
 		0634FB161EEA03B400AE0258 /* Fila.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Fila.hpp; path = computacao.cientifica.algoritmos/Fila.hpp; sourceTree = "<group>"; };
+		06D62D431F44FF2300A9D092 /* Funcao.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Funcao.cpp; path = computacao.cientifica.algoritmos/Funcao.cpp; sourceTree = "<group>"; };
+		06D62D441F44FF2300A9D092 /* Funcao.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Funcao.hpp; path = computacao.cientifica.algoritmos/Funcao.hpp; sourceTree = "<group>"; };
 		E97DE5FF1EF7002E00897226 /* No.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = No.cpp; path = computacao.cientifica.algoritmos/No.cpp; sourceTree = "<group>"; };
 		E97DE6001EF7002E00897226 /* No.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = No.hpp; path = computacao.cientifica.algoritmos/No.hpp; sourceTree = "<group>"; };
 		E97DE6021EF7053000897226 /* Lista.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lista.cpp; path = computacao.cientifica.algoritmos/Lista.cpp; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		0634FAFA1EE8B5D200AE0258 = {
 			isa = PBXGroup;
 			children = (
+				06D62D421F44FE7000A9D092 /* computacao.cientifica.algoritmos.function */,
 				E97DE5FE1EF6FFC200897226 /* computacao.cientifica.algoritmos.lista */,
 				0634FB141EEA01C600AE0258 /* computacao.cientifica.algoritmos.main */,
 				0634FB101EE9FCCA00AE0258 /* computacao.cientifica.algoritmos.fila */,
@@ -104,6 +108,15 @@
 				0634FB061EE8B5D200AE0258 /* main.cpp */,
 			);
 			name = computacao.cientifica.algoritmos.main;
+			sourceTree = "<group>";
+		};
+		06D62D421F44FE7000A9D092 /* computacao.cientifica.algoritmos.function */ = {
+			isa = PBXGroup;
+			children = (
+				06D62D431F44FF2300A9D092 /* Funcao.cpp */,
+				06D62D441F44FF2300A9D092 /* Funcao.hpp */,
+			);
+			name = computacao.cientifica.algoritmos.function;
 			sourceTree = "<group>";
 		};
 		E97DE5FE1EF6FFC200897226 /* computacao.cientifica.algoritmos.lista */ = {
@@ -181,6 +194,7 @@
 				E9F5CDE71EF7306100BCFC27 /* PilhaComLista.cpp in Sources */,
 				E9B671A81EF754E0002EBDA9 /* FilaComLista.cpp in Sources */,
 				0634FB071EE8B5D200AE0258 /* main.cpp in Sources */,
+				06D62D451F44FF2300A9D092 /* Funcao.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

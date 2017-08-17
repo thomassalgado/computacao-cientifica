@@ -10,17 +10,18 @@
 #ifndef main_cpp
 
 #include <iostream>
-#include "Pilha.hpp"
-#include "Fila.hpp"
-#include "PilhaComLista.hpp"
-#include "FilaComLista.hpp"
+//#include "Pilha.hpp"
+//#include "Fila.hpp"
+//#include "PilhaComLista.hpp"
+//#include "FilaComLista.hpp"
+#include "Funcao.hpp"
 
 #endif /* main_cpp */
 
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+/*int main(int argc, const char * argv[]) {
   
     string entrada;
     PilhaComLista pilha;
@@ -82,4 +83,19 @@ int main(int argc, const char * argv[]) {
     }
 
     return 0;
+}*/
+
+double multiplicar(double x){
+    return x*x;
 }
+
+int main(int argc, const char * argv[]) {
+    Funcao func;
+    func.func = multiplicar;
+    double x = func.executarNewtonRaphson(-2);
+    //double x = func.derivar(-2);
+    printf("x=%f\n", x);
+    return 0;
+}
+
+
