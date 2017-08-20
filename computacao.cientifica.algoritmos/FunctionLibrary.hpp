@@ -14,6 +14,10 @@
 
 #endif /* FunctionLibrary_hpp */
 
+
+/*
+ * Biblioteca de funcoes utilizadas
+ */
 class FunctionLibrary{
     
 public:

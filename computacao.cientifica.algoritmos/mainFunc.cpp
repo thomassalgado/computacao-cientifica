@@ -18,6 +18,9 @@
 
 using namespace std;
 
+/*
+ * Menu facilitador da execuçao dos testes
+ */
 int main(int argc, const char * argv[]) {
     
     string entrada;
@@ -40,11 +43,17 @@ int main(int argc, const char * argv[]) {
             getline (std::cin,entrada);
             if(entrada.compare("1") == 0){
                 Funcao func;
+                /*
+                 * Atribuindo funcao de calculo
+                 */
                 func.func = FunctionLibrary::exec01;
                 double x = func.executarNewtonRaphson(2);
                 printf("valor minimo = %f\n", x);
             } else if(entrada.compare("2") == 0){
                 Funcao func;
+                /*
+                 * Atribuindo funcao de calculo
+                 */
                 func.func = FunctionLibrary::exec02;
                 double x = func.executarNewtonRaphson(2);
                 printf("valor minimo = %f\n", x);
@@ -59,37 +68,29 @@ int main(int argc, const char * argv[]) {
             entrada = "";
             cout << "1 para f(x) = x²" << endl;
             cout << "2 para f(x) = x³-2x²+2" << endl;
-            //cout << "3 para f(y,x) = (1-x)²+(1-y)²" << endl;
-            //cout << "4 para f(y,x) = (1-y)²+100(x-y²)²" << endl;
             getline (std::cin,entrada);
             if(entrada.compare("1") == 0){
                 Funcao func;
+                /*
+                 * Atribuindo funcao de calculo
+                 */
                 func.func = FunctionLibrary::exec01;
                 double x = func.executarDescidaGradiente(2);
                 printf("valor minimo = %f\n", x);
             } else if(entrada.compare("2") == 0){
                 Funcao func;
+                /*
+                 * Atribuindo funcao de calculo
+                 */
                 func.func = FunctionLibrary::exec02;
                 double x = func.executarDescidaGradiente(2);
                 printf("valor minimo = %f\n", x);
-            /*}  else if(entrada.compare("3") == 0) {
-                Funcao func;
-                func.func = FunctionLibrary::exec03;
-                double x = func.executarDescidaGradiente(2);
-                printf("valor minimo = %f\n", x);
-            } else if(entrada.compare("4") == 0) {
-                Funcao func;
-                func.func = FunctionLibrary::exec04;
-                double x = func.executarDescidaGradiente(2);
-                printf("valor minimo = %f\n", x);
-                 */
             } else if(entrada.compare("0") == 0) {
                 cout << "Ate breve\n";
                 return 0;
             } else {
                 cout << "Opcao invalida\n";
             }
-            
         } else {
             cout << "Opcao invalida\n";
         }
