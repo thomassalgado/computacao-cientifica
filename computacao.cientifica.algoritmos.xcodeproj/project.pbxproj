@@ -11,6 +11,8 @@
 		0634FB0F1EE8B67A00AE0258 /* Pilha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB0D1EE8B67A00AE0258 /* Pilha.cpp */; };
 		0634FB171EEA03B400AE0258 /* Fila.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0634FB151EEA03B400AE0258 /* Fila.cpp */; };
 		06D62D451F44FF2300A9D092 /* Funcao.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06D62D431F44FF2300A9D092 /* Funcao.cpp */; };
+		E912A7C51F4A23DF000126ED /* mainFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E912A7C41F4A23DF000126ED /* mainFunc.cpp */; };
+		E912A7C81F4A2A35000126ED /* FunctionLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E912A7C61F4A2A35000126ED /* FunctionLibrary.cpp */; };
 		E97DE6011EF7002E00897226 /* No.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97DE5FF1EF7002E00897226 /* No.cpp */; };
 		E97DE6041EF7053000897226 /* Lista.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97DE6021EF7053000897226 /* Lista.cpp */; };
 		E9B671A81EF754E0002EBDA9 /* FilaComLista.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B671A61EF754E0002EBDA9 /* FilaComLista.cpp */; };
@@ -38,6 +40,9 @@
 		0634FB161EEA03B400AE0258 /* Fila.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Fila.hpp; path = computacao.cientifica.algoritmos/Fila.hpp; sourceTree = "<group>"; };
 		06D62D431F44FF2300A9D092 /* Funcao.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Funcao.cpp; path = computacao.cientifica.algoritmos/Funcao.cpp; sourceTree = "<group>"; };
 		06D62D441F44FF2300A9D092 /* Funcao.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Funcao.hpp; path = computacao.cientifica.algoritmos/Funcao.hpp; sourceTree = "<group>"; };
+		E912A7C41F4A23DF000126ED /* mainFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mainFunc.cpp; path = computacao.cientifica.algoritmos/mainFunc.cpp; sourceTree = "<group>"; };
+		E912A7C61F4A2A35000126ED /* FunctionLibrary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunctionLibrary.cpp; path = computacao.cientifica.algoritmos/FunctionLibrary.cpp; sourceTree = "<group>"; };
+		E912A7C71F4A2A35000126ED /* FunctionLibrary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FunctionLibrary.hpp; path = computacao.cientifica.algoritmos/FunctionLibrary.hpp; sourceTree = "<group>"; };
 		E97DE5FF1EF7002E00897226 /* No.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = No.cpp; path = computacao.cientifica.algoritmos/No.cpp; sourceTree = "<group>"; };
 		E97DE6001EF7002E00897226 /* No.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = No.hpp; path = computacao.cientifica.algoritmos/No.hpp; sourceTree = "<group>"; };
 		E97DE6021EF7053000897226 /* Lista.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lista.cpp; path = computacao.cientifica.algoritmos/Lista.cpp; sourceTree = "<group>"; };
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				0634FB061EE8B5D200AE0258 /* main.cpp */,
+				E912A7C41F4A23DF000126ED /* mainFunc.cpp */,
 			);
 			name = computacao.cientifica.algoritmos.main;
 			sourceTree = "<group>";
@@ -115,6 +121,8 @@
 			children = (
 				06D62D431F44FF2300A9D092 /* Funcao.cpp */,
 				06D62D441F44FF2300A9D092 /* Funcao.hpp */,
+				E912A7C61F4A2A35000126ED /* FunctionLibrary.cpp */,
+				E912A7C71F4A2A35000126ED /* FunctionLibrary.hpp */,
 			);
 			name = computacao.cientifica.algoritmos.function;
 			sourceTree = "<group>";
@@ -188,9 +196,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E97DE6011EF7002E00897226 /* No.cpp in Sources */,
+				E912A7C51F4A23DF000126ED /* mainFunc.cpp in Sources */,
 				0634FB171EEA03B400AE0258 /* Fila.cpp in Sources */,
 				0634FB0F1EE8B67A00AE0258 /* Pilha.cpp in Sources */,
 				E97DE6041EF7053000897226 /* Lista.cpp in Sources */,
+				E912A7C81F4A2A35000126ED /* FunctionLibrary.cpp in Sources */,
 				E9F5CDE71EF7306100BCFC27 /* PilhaComLista.cpp in Sources */,
 				E9B671A81EF754E0002EBDA9 /* FilaComLista.cpp in Sources */,
 				0634FB071EE8B5D200AE0258 /* main.cpp in Sources */,

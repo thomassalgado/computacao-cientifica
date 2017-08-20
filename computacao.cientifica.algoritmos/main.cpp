@@ -85,17 +85,4 @@ using namespace std;
     return 0;
 }*/
 
-double multiplicar(double x){
-    return x*x;
-}
-
-int main(int argc, const char * argv[]) {
-    Funcao func;
-    func.func = multiplicar;
-    double x = func.executarNewtonRaphson(-2);
-    //double x = func.derivar(-2);
-    printf("x=%f\n", x);
-    return 0;
-}
-
 

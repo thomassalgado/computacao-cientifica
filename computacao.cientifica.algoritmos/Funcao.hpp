@@ -11,10 +11,12 @@
 
 #define DELTA_X 0.0001
 #define TAXA_APRENDIZAGEM 0.1
+#define MAX_CONTADOR 1000
 
 #include <stdio.h>
 #include <iostream>
 #include <string>
+#include <exception>
 
 #endif /* Funcao_hpp */
 
@@ -25,4 +27,5 @@ public:
     double (*func)(double x);
     double derivar(double x);
     double executarNewtonRaphson(double x);
+    double executarDescidaGradiente(double x);
 };
